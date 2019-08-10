@@ -1,0 +1,11 @@
+
+\squid:S34004"9Remove this method and declare a constant for this value.(µ€ñÀÿÿÿÿÿ8Ùþä¨¿-
+Isquid:S11723"&Remove these unused method parameters.(Ÿã’¼þÿÿÿÿ8Ùþä¨¿-
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡·Öîþÿÿÿÿ
+isquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(…žÎŽ8²Žô¨¿-
+\squid:S34009"9Remove this method and declare a constant for this value.(µ€ñÀÿÿÿÿÿ8²Žô¨¿-
+Gsquid:S1481>"*Remove this unused "nums1" local variable.(žÑºf8²Žô¨¿-
+Hsquid:S1481?"*Remove this unused "nums2" local variable.(ùâìø8²Žô¨¿-
+Isquid:S11728"&Remove these unused method parameters.(ÒýŠÞûÿÿÿÿ8²Žô¨¿-
+Wsquid:S1854?"9Remove this useless assignment to local variable "nums2".(ùâìø8²Žô¨¿-
+Vsquid:S1854>"9Remove this useless assignment to local variable "nums1".(žÑºf8²Žô¨¿-

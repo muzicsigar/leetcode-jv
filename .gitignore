@@ -1,0 +1,16 @@
+target
+.recommenders
+.settings
+logs
+.idea
+*.iml
+*.ipr
+*.iws
+*.class
+.classpath
+.project
+bin
+*.svn
+*/lib/*
+.DS_Store
+

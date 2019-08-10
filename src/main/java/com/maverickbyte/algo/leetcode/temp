@@ -1,0 +1,42 @@
+        int fromIndex = 0;
+        final int haystackLength = haystack.length();
+        final int needleLength = needle.length();
+        if (fromIndex >= haystackLength) {
+            return (needleLength == 0 ? haystackLength : -1);
+        }
+        if (fromIndex < 0) {
+            fromIndex = 0;
+        }
+        if (needleLength == 0) {
+            return fromIndex;
+        }
+
+        char first = needle.charAt(0);
+        // 计算出最多比较的次数
+        int max = (haystackLength - needleLength);
+
+        for (int i = fromIndex; i <= max; i++) {
+            // 寻找在haystack中出现和needle第一个字符相等的位置
+            if (haystack.charAt(i)!= first) {
+                while (++i <= max && haystack.charAt(i) != first);
+            }
+
+            if (i <= max) {
+                // 找到第一个相等的字符后，从下一个字符开始再比较（下次比较开始的位置）
+                int j = i + 1;
+                // 除needle第一个字符，剩下字符再比较结束的位置
+                // 可以理解为：j+(needleLength-1)， 即开始的位置+ needle剩下要比较字符的长度
+                int end = j + needleLength - 1;
+                /* j < end 说明还没有比较完
+                 * j < end && haystack.charAt(j) == needle.charAt(k) 是真说明在还没比较完的情况下比较的字符相等，
+                 *  那么继续循环，直到条件为false
+                 */
+                for (int k = 1; j < end && haystack.charAt(j) == needle.charAt(k); j++, k++);
+
+                // 上面循环结束时 j刚好等于结束比较的位置，那么就返回上面找到的needle第一个字符相等的位置
+                if (j == end) {
+                    return i;
+                }
+            }
+        }
+        return -1;
