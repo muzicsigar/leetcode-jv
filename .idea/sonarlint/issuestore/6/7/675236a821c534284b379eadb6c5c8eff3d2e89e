@@ -1,9 +1,0 @@
-
-‰ squid:ForLoopCounterChangedCheckP"XRefactor the code in order to not assign to this loop counter from within the loop body.(ïú¼ÿıÿÿÿÿ
-6squid:S1659"Declare "i" on a separate line.(×ÂÂ
-6squid:S1659"Declare "j" on a separate line.(×ÂÂ
-=squid:S1659K"!Declare "ans" on a separate line.(É£‘¥ùÿÿÿÿ
-Osquid:S25892"8Remove this expression which always evaluates to "false"(ó¯ëĞ
-Psquid:S3400"9Remove this method and declare a constant for this value.(”·³›
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ü¤´
-?squid:S1172"(Remove this unused method parameter "s".(Öş±
