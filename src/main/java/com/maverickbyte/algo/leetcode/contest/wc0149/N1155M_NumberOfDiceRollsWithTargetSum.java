@@ -51,6 +51,7 @@ public class N1155M_NumberOfDiceRollsWithTargetSum {
       Bound: dp[1][j] = 1 (j <= f)
      ============================================================================================= */
   public int numRollsToTarget2(int d, int f, int target) {
+    System.out.println("test....");
     int[][] dp = new int[31][1001];
     int min = Math.min(f, target);
     for (int i = 1; i <= min; i++) {
@@ -60,7 +61,7 @@ public class N1155M_NumberOfDiceRollsWithTargetSum {
     for (int i = 2; i <= d; i++) {
       for (int j = i; j <= targetMax; j++) {
         for (int k = 1; j - k >= 0 && k <= f; k++) {
-          dp[i][j] += dp[i - 1][j - k] % MOD;
+          dp[i][j] = (dp[i][j] + dp[i - 1][j - k]) % MOD;
         }
       }
     }
