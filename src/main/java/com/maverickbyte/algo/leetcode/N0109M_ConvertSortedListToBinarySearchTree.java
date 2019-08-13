@@ -3,8 +3,6 @@ package com.maverickbyte.algo.leetcode;
 import com.maverickbyte.algo.leetcode.util.ListNode;
 import com.maverickbyte.algo.leetcode.util.TreeNode;
 
-import java.util.LinkedList;
-
 /**
  * @author Alan Li
  * @since 1.0
@@ -12,28 +10,27 @@ import java.util.LinkedList;
 public class N0109M_ConvertSortedListToBinarySearchTree {
 
   public TreeNode sortedListToBST(ListNode head) {
-    if(null == head) {
+    if (head == null) {
       return null;
     }
-    LinkedList<TreeNode> queue = new LinkedList<>();
-    TreeNode root = new TreeNode(head.val);
-    queue.addLast(root);
-    head = head.next;
-    while (head != null) {
-      TreeNode cur = queue.getFirst();
-      if (cur.left == null) {
-        cur.left = new TreeNode(head.val);
-        queue.addLast(cur.left);
-      } else{
-        cur.right = new TreeNode(head.val);
-        queue.addLast(cur.right);
-        queue.pollFirst();
-      }
-      head = head.next;
+    if(head.next == null){
+      return new TreeNode(head.val);
     }
+    ListNode dummy= new ListNode(0);
+    dummy.next = head;
+    ListNode slow = dummy;
+    ListNode slowPre = null;
+    ListNode fast = dummy;
+    while (fast != null && fast.next != null) {
+      slowPre = slow;
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    slowPre.next = null;
+    TreeNode root = new TreeNode(slow.val);
+    root.left = sortedListToBST(dummy.next);
+    root.right = sortedListToBST(slow.next);
     return root;
   }
 
-  private void convert(TreeNode root, ListNode head) {
-  }
 }
