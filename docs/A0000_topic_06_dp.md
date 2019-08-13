@@ -1,6 +1,7 @@
 
 ### Knowledge Prerequisites 
 DP其实就是一种表格法
+大多数递归都可以用动态规划的思想重写
 
 #### 1. Terms
 - 记忆化回溯

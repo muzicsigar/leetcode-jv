@@ -3,28 +3,34 @@ package com.maverickbyte.algo.leetcode;
 import com.maverickbyte.algo.leetcode.util.TreeNode;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @author Alan Li
  * @since 1.0
  */
-public class N0102M_BinaryTreeLevelOrderTraversal {
+public class N0107E_BinaryTreeLevelOrderTraversalII {
 
-
-  /* =============================== recursive ver. =================================*/
-  public List<List<Integer>> levelOrder1(TreeNode root) {
+  /* =============================================================================================
+      solution 1: recursive
+     ============================================================================================= */
+  public List<List<Integer>> levelOrderBottom(TreeNode root) {
     if (null == root) {
       return new ArrayList<>();
     }
+    LinkedList<List<Integer>> visit = new LinkedList<>();
+    levelOrder(root, 0, visit);
     List<List<Integer>> ans = new ArrayList<>();
-    levelOrder0(root, 0, ans);
+    Iterator<List<Integer>> iterator = visit.descendingIterator();
+    while (iterator.hasNext()) {
+      ans.add(iterator.next());
+    }
     return ans;
   }
 
-  private void levelOrder0(TreeNode root, int level, List<List<Integer>> ans) {
+  private void levelOrder(TreeNode root, int level, List<List<Integer>> ans) {
     // base case
     if (null == root) {
       return;
@@ -35,8 +41,8 @@ public class N0102M_BinaryTreeLevelOrderTraversal {
       ans.add(new ArrayList<>());
     }
     ans.get(level).add(root.val);
-    levelOrder0(root.left, level + 1, ans);
-    levelOrder0(root.right, level + 1, ans);
+    levelOrder(root.left, level + 1, ans);
+    levelOrder(root.right, level + 1, ans);
   }
 
   /* =============================== iteration ver. ==================================*/
@@ -44,7 +50,7 @@ public class N0102M_BinaryTreeLevelOrderTraversal {
     if (root == null) {
       return new ArrayList<>();
     }
-    List<List<Integer>> ans = new ArrayList<>();
+    LinkedList<List<Integer>> ans = new LinkedList<>();
     LinkedList<TreeNode> queue = new LinkedList<>();
     queue.addLast(root);
     while (!queue.isEmpty()) {
@@ -60,24 +66,9 @@ public class N0102M_BinaryTreeLevelOrderTraversal {
           queue.addLast(node.right);
         }
       }
-      ans.add(levelList);
+      ans.addFirst(levelList);
     }
     return ans;
   }
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
