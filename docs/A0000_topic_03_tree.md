@@ -1,5 +1,9 @@
 
 ### Knowledge Prerequisites 
+- 解决树问题的关键就是 
+    * 熟练掌握二叉树的遍历(inorder, preorder, postorder, levelorder, bfs, dfs)
+    * 熟练掌握递归的思想
+    * stack，queue，deque的应用(控制元素顺序)。
 
 #### 1. Terms
 
