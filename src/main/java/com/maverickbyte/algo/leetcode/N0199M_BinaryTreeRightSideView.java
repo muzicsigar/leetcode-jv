@@ -10,7 +10,7 @@ import java.util.List;
  * @author Alan Li
  * @since 1.0
  */
-public class N0199M_BinaryTreeRightSlideView {
+public class N0199M_BinaryTreeRightSideView {
 
   /* =============================== level order recursive ver. ==================================*/
   public List<Integer> rightSideView1(TreeNode root) {
