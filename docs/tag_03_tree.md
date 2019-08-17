@@ -1,7 +1,7 @@
 
 ### Knowledge Prerequisites 
 - 解决树问题的关键就是 
-    * 熟练掌握二叉树的遍历(inorder, preorder, postorder, levelorder, bfs, dfs)
+    * 熟练掌握二叉树的遍历(DFS: inorder, preorder, postorder;  BFS: levelorder)
     * 熟练掌握递归的思想
     * stack，queue，deque的应用(控制元素顺序)。
 
@@ -17,6 +17,8 @@
     * [[readme]](https://)
     * [[solution]](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/er-cha-shu-de-zhong-xu-bian-li-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0094M_BinaryTreeInorderTraversal.java)
+    * recursion, iteration with stack, morris
+    * 二叉树的线索化：线索二叉树(Threaded Binary Tree) 
 - [x] **C** [N0095M_UniqueBinarySearchTreesII_不同的二叉搜索树II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
       [[solution-1]](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-2-7/)
       [[solution-2]](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/solution/zi-ding-xiang-xia-by-powcai/)
@@ -69,8 +71,11 @@
 - [x] **C** [N0129M_SumRootToLeafNumbers_求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
       [[solution]](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/3zhong-jie-fa-di-gui-xian-xu-fei-di-gui-xian-xu-ce/)
 - [ ] **C** [N0144M_BinaryTreePreorderTraversal_二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-      [[solution]](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode/)
-      [[solution]](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/di-gui-he-die-dai-by-powcai-5/)
+      * [[readme]](details)
+      * [[solution_1]](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode/)
+      * [[solution_2]](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/di-gui-he-die-dai-by-powcai-5/)
+      * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0144M_BinaryTreePreorderTraversal.java)
+      * recursion, iteration with stack, morris
 - [ ] **C** [N0145H_BinaryTreePostorderTraversal_二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
       [[solution]](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/er-cha-shu-de-hou-xu-bian-li-by-leetcode/)
 - [x] **C** [N0173M_BinarySearchTreeIterator_二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)

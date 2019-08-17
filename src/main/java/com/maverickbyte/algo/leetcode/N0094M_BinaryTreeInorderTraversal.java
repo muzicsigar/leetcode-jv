@@ -64,4 +64,30 @@ public class N0094M_BinaryTreeInorderTraversal {
     }
     return visit;
   }
+
+
+  /* =============================================================================================
+      solution 3: Morris
+     ============================================================================================= */
+  public List<Integer> inorderTraversal3(TreeNode root) {
+    List<Integer>  visit = new ArrayList<>();
+    TreeNode cur = root;
+    TreeNode pre;
+    while (cur != null) {
+      if(cur.left == null){
+        visit.add(cur.val);
+        cur = cur.right;
+      } else {
+        pre = cur.left;
+        while (pre.right != null) {
+          pre = pre.right;
+        }
+        pre.right = cur;
+        TreeNode tmp = cur;
+        cur = cur.left;
+        tmp.left = null;
+      }
+    }
+    return visit;
+  }
 }

@@ -11,15 +11,8 @@ import java.util.Map;
 public class N0003M_LengthOfLongestSubstring {
 
 
-  // brutal-force
-  public int lengthOfLongestSubstring1(String s) {
-
-    return 0;
-  }
-
-
   // sliding window: better code
-  public int lengthOfLongestSubstring2(String s) {
+  public int lengthOfLongestSubstring1(String s) {
     int size = s.length();
     HashSet<Character> set = new HashSet<>();
     int ans = 0, i = 0, j = 0;
@@ -45,37 +38,37 @@ public class N0003M_LengthOfLongestSubstring {
    * 这时containsKey()==true对当前窗口来说是错的，无需改变i。可用序列cbabcb分析
    *
    */
-  public int lengthOfLongestSubstring3(String s) {
-    int size = s.length();
-    if (null == s || size == 0) {
+  public int lengthOfLongestSubstring2(String s) {
+    if (null == s || s.length() == 0) {
       return 0;
     }
-
+    int size = s.length();
     int ans = 0;
-    // char a -> the biggest idx of char a for now
     Map<Character, Integer> map = new HashMap<>();
-    int i = 0;
-    int j = 0;
-    while (i <= j && j < size) {
+    for (int j = 0, i = 0; j < size; j++) {
       if (map.containsKey(s.charAt(j))) {
-        i = Math.max(i, map.get(s.charAt(j) + 1));
+        i = Math.max(i, map.get(s.charAt(j)) + 1);
       }
       ans = Math.max(ans, j - i + 1);
       map.put(s.charAt(j), j);
-      j++;
     }
     return ans;
   }
 
-  //  map改为用编码的字典映射
-  //  int [26] 用于字母 ‘a’ - ‘z’ 或 ‘A’ - ‘Z’
-  //  int [128] 用于ASCII码
-  //  int [256] 用于扩展ASCII码
-  public int lengthOfLongestSubstring4(String s) {
-    int n = s.length(), ans = 0;
-    // current index of character, the value is the latest index of char a.
+  /* =============================================================================================
+      comment
+      map改为用编码的字典映射, 特殊的map
+      int [26] 用于字母 ‘a’ - ‘z’ 或 ‘A’ - ‘Z’
+      int [128] 用于ASCII码
+      int [256] 用于扩展ASCII码
+     ============================================================================================= */
+  public int lengthOfLongestSubstring3(String s) {
+    if (null == s || s.length() == 0) {
+      return 0;
+    }
+    int n = s.length();
+    int ans = 0;
     int[] index = new int[128];
-    // try to extend the range [i, j]
     for (int j = 0, i = 0; j < n; j++) {
       i = Math.max(index[s.charAt(j)], i);
       ans = Math.max(ans, j - i + 1);

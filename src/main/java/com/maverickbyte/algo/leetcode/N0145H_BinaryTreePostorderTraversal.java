@@ -24,11 +24,9 @@ public class N0145H_BinaryTreePostorderTraversal {
   }
 
   private void postorder(TreeNode root, List<Integer> ans) {
-    // base case
     if (null == root) {
       return;
     }
-    // making progress
     postorder(root.left, ans);
     postorder(root.right, ans);
     ans.add(root.val);

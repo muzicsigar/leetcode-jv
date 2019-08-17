@@ -42,7 +42,7 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
       [[solution]]()
 - [ ] [买卖股票的最佳时机含手续费]()      
       [[solution]]()
-- [ ] [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)      
+- [ ] [* 300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)      
       [[solution]]()
 - [ ] [10. Regular Expression Matching 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/)      
       [[solution_fr_labuladong]](https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/)

@@ -1,6 +1,8 @@
 
 ### Knowledge Prerequisites 
 
+- 如何取中点， 奇数中点， 偶数中点
+
 #### 1. Terms
 
 
@@ -11,8 +13,16 @@
 https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 
 #### 1. To Be Sorted
-- [ ] [3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-      [[solution]]() 
+- [x] [* N0003M_LongestSubstringWithoutRepeatingCharacters_无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [hash, double-pointer, string, sliding-window]
+      [[solution]](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetcod/) 
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0003M_LengthOfLongestSubstring.java)
+- [x] [N0006M_ZigZagConversion_Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) [string]
+      [[solution]](https://leetcode-cn.com/problems/zigzag-conversion/solution/z-zi-xing-bian-huan-by-leetcode/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0006M_ZigZagConversion.java)
+- [x] [N0008M_StringToInteger_atoi_字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) [math, string]
+      [[solution]](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/java-zui-you-ti-jie-by-no-one-9/)      
+      [[solution]](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/javafei-zheng-ze-jie-fa-by-shank3/)      
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0008M_StringToInteger_atoi.java)      
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
       [[solution]]()
 - [ ] [340. Longest Substring with At Most K Distinct Characters 至多包含 K 个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)

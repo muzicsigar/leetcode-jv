@@ -5,6 +5,7 @@ import com.maverickbyte.algo.leetcode.util.TreeNode;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -13,7 +14,9 @@ import java.util.List;
  */
 public class N0144M_BinaryTreePreorderTraversal {
 
-  /* =============================== recursive version ==================================*/
+  /* =============================================================================================
+      solution 1: recursion
+     ============================================================================================= */
   public List<Integer> preorderTraversal1(TreeNode root) {
     if (null == root) {
       return new ArrayList<>();
@@ -24,35 +27,38 @@ public class N0144M_BinaryTreePreorderTraversal {
   }
 
   private void preorder(TreeNode root, List<Integer> ans) {
-    // base case
     if (null == root) {
       return;
     }
-    // making progress
     ans.add(root.val);
     preorder(root.left, ans);
     preorder(root.right, ans);
   }
 
-  /* =============================== iteration version ==================================*/
+  /* =============================================================================================
+      solution 2: iteration with stack
+     ============================================================================================= */
   public List<Integer> preorderTraversal2(TreeNode root) {
-    if(null == root) {
-      return new ArrayList<>();
-    }
-    List<Integer> ans = new ArrayList<>();
-    Deque<TreeNode> stack = new ArrayDeque<>();
-    while (null != root || !stack.isEmpty()) {
-      while (null != root) {
-        ans.add(root.val);
-        stack.push(root);
-        root = root.left;
+    List<Integer> visit = new ArrayList<>();
+    LinkedList<TreeNode> stack = new LinkedList<>();
+    TreeNode p = root;
+    while (null != p || !stack.isEmpty()) {
+      while (null != p) {
+        visit.add(p.val);
+        stack.push(p);
+        p = p.left;
       }
-      if(!stack.isEmpty()) {
-        root = stack.pop();
-        root = root.right;
-      }
+      p = stack.pop().right;
     }
-    return ans;
+    return visit;
+  }
+
+  /* =============================================================================================
+      solution 3: morris
+     ============================================================================================= */
+  public List<Integer> preorderTraversal3(TreeNode root) {
+    // TODO
+    return null;
   }
 
 
