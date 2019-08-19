@@ -14,7 +14,7 @@ public class ListNode {
   }
 
 
-  public static ListNode factory(int[] values) {
+  public static ListNode newList(int[] values) {
     if (values == null || values.length == 0) {
       return null;
     }

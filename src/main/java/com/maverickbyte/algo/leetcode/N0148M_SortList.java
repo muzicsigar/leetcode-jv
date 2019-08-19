@@ -72,6 +72,6 @@ public class N0148M_SortList {
 
   public static void main(String[] args) {
     N0148M_SortList runner = new N0148M_SortList();
-    System.out.println(runner.sortList(ListNode.factory(new int[]{-1,5,3,4,0})));
+    System.out.println(runner.sortList(ListNode.newList(new int[]{-1,5,3,4,0})));
   }
 }

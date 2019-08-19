@@ -23,6 +23,27 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
       [[solution]](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/java-zui-you-ti-jie-by-no-one-9/)      
       [[solution]](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/javafei-zheng-ze-jie-fa-by-shank3/)      
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0008M_StringToInteger_atoi.java)      
+- [x] [N0012M_IntegerToRoman_整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/integer-to-roman/solution/ha-xi-jie-jue-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0012M_IntegerToRoman.java)
+- [x] [N0013E_RomanToInteger_罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) [math, string]
+      [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0013E_RomanToInteger.java)
+- [x] [N0014E_LongestCommonPrefix_最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/) [string, divide-and-conquer] 
+      [[solution]](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0014E_LongestCommonPrefix.java)      
+- [x] [N0017M_LetterCombinationsOfAPhoneNumber_电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) [string, backtrack]
+      [[solution]](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/leetcode-17-letter-combinations-of-a-phone-number-/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0017M_LetterCombinationsOfAPhoneNumber.java)      
+- [x] [N0020E_ValidParentheses_有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) [stack, string]
+    * [[solution_noop]](https://leetcode-cn.com/problems/valid-parentheses/solution/you-xiao-de-gua-hao-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0020E_ValidParentheses.java)      
+- [x] [* N0022M_GenerateParentheses_括号生成](https://leetcode-cn.com/problems/generate-parentheses/) [string, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0022M_GenerateParentheses.java)
+      
+          
+          
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
       [[solution]]()
 - [ ] [340. Longest Substring with At Most K Distinct Characters 至多包含 K 个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)

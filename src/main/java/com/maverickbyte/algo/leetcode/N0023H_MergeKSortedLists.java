@@ -44,147 +44,169 @@ public class N0023H_MergeKSortedLists {
     return dummyNode.next;
   }
 
-  // brutal-force ver2
-  // Time: O(k * N)
+  /* =============================================================================================
+     solution 1: div-and-conquer
+     hints: like merge-sort
+     time: Nlogk
+     space: logk
+    ============================================================================================= */
   public ListNode mergeKLists1(ListNode[] lists) {
     if (null == lists || lists.length == 0) {
       return null;
     }
-    if (lists.length == 1) {
-      return lists[0];
-    }
-
-    int k = lists.length;
-    ListNode dummyNode = new ListNode(0);
-    ListNode current = dummyNode;
-
-    while (true) {
-      // choose minIdx
-      int minIdx = -1;
-      for (int i = 0; i < k; i++) {
-        if (lists[i] != null && (minIdx < 0 || lists[minIdx].val > lists[i].val)) {
-          minIdx = i;
-        }
-      }
-      if (minIdx < 0) {
-        break;
-      }
-      // append to current sorted list
-      current.next = lists[minIdx];
-      current = current.next;
-      lists[minIdx] = lists[minIdx].next;
-    }
-
-    return dummyNode.next;
+    return mergeRange(lists, 0, lists.length - 1);
   }
 
-  // using heap sort( array heap), timeout...
+  private ListNode mergeRange(ListNode[] lists, int left, int right) {
+    if (left == right) {
+      return lists[left];
+    }
+    int mid = (left + right) / 2;
+    ListNode l1 = mergeRange(lists, left, mid);
+    ListNode l2 = mergeRange(lists, mid + 1, right);
+    return merge0(l1, l2);
+  }
+
+  private ListNode merge(ListNode l1, ListNode l2) {
+    ListNode dummy = new ListNode(0);
+    ListNode cur = dummy;
+    while (l1 != null && l2 != null) {
+      if (l1.val < l2.val) {
+        cur.next = l1;
+        l1 = l1.next;
+      } else {
+        cur.next = l2;
+        l2 = l2.next;
+      }
+      cur = cur.next;
+    }
+    cur.next = l1 == null ? l2 : l1;
+    return dummy.next;
+  }
+
+  private ListNode merge0(ListNode l1, ListNode l2) {
+    if (l1 == null) {
+      return l2;
+    }
+    if (l2 == null) {
+      return l1;
+    }
+    if (l1.val < l2.val) {
+      l1.next = merge0(l1.next, l2);
+      return l1;
+    } else {
+      l2.next = merge0(l1, l2.next);
+      return l2;
+    }
+  }
+
+  /* =============================================================================================
+      solution 2: brutal-force
+      k = lists.length, N = lists[0].length
+      time: O(k*N)
+      space: O(1)
+     ============================================================================================= */
   public ListNode mergeKLists2(ListNode[] lists) {
     if (null == lists || lists.length == 0) {
       return null;
     }
-    if (lists.length == 1) {
-      return lists[0];
+    ListNode dummy = new ListNode(0);
+    ListNode cur = dummy;
+
+    ListNode smallest = smallest(lists);
+    while (smallest != null && this.left > 1) {
+      cur.next = smallest;
+      smallest = smallest(lists);
+      cur = cur.next;
+    }
+    if (smallest != null && this.left == 1) {
+      cur.next = smallest;
     }
 
-    // O(N)
-    int size = 0;
+    return dummy.next;
+  }
+
+  private int left;
+
+  private ListNode smallest(ListNode[] lists) {
+    this.left = lists.length;
+    int minIdx = -1;
     for (int i = 0; i < lists.length; i++) {
-      ListNode walker = lists[i];
-      while (null != walker) {
-        walker = walker.next;
-        size++;
-      }
-    }
-    if (size == 0) {
-      return null;
-    }
-    ListNode[] array = new ListNode[size];
-
-    int j = 0;
-    for (int i = 0; i < lists.length; i++) {
-      ListNode walker = lists[i];
-      while (null != walker) {
-        array[j++] = walker;
-        walker = walker.next;
-      }
-    }
-    return heapSort(array);
-  }
-
-  // 除了这种heap， 还可以构造 size 固定等于 lists.length = k的heap。
-  public ListNode heapSort(ListNode[] array) {
-    // build min heap
-    for (int i = array.length / 2; i >= 0; i--) {
-      shiftDown(array, i, array.length);
-    }
-    // swap in-place
-    ListNode dummyNode = new ListNode(0);
-    ListNode current = dummyNode;
-    for (int endIdx = array.length - 1; endIdx >= 0; endIdx--) {
-      // swap
-      ListNode temp = array[endIdx];
-      array[endIdx] = array[0];
-      array[0] = temp;
-      current.next = array[endIdx];
-      current = current.next;
-
-      // percolate down
-      shiftDown(array, 0, endIdx);
-    }
-    return dummyNode.next;
-  }
-
-  private int leftChild(int pos) {
-    return (pos * 2) + 1;
-  }
-
-  private void shiftDown(ListNode[] array, int pos, int size) {
-    int child;
-    ListNode temp = array[pos];
-    while (leftChild(pos) < size) {
-      child = leftChild(pos);
-      if (child != size - 1 && array[child + 1].val < array[child].val) {
-        child++;
-      }
-      if (array[child].val < temp.val) {
-        array[pos] = array[child];
-        pos = child;
+      if (lists[i] == null) {
+        this.left--;
       } else {
-        break;
+        if (minIdx < 0 || lists[i].val < lists[minIdx].val) {
+          minIdx = i;
+        }
       }
     }
-    array[pos] = temp;
+    if (minIdx < 0) {
+      return null;
+    }
+    ListNode smallest = lists[minIdx];
+    lists[minIdx] = smallest.next; // 注意这一步
+    return smallest;
   }
 
 
-  // using heap: 使用JDK实现的heap类
+  /* =============================================================================================
+      solution 3:  用优先队列优化 solution 2
+      记住这个
+     ============================================================================================= */
   public ListNode mergeKLists3(ListNode[] lists) {
-    int len = lists.length;
-    if (len == 0) {
+    if (null == lists || lists.length == 0) {
       return null;
     }
-    PriorityQueue<ListNode> priorityQueue =
-      new PriorityQueue<>(len, Comparator.comparingInt(a -> a.val));
-
-    ListNode dummyNode = new ListNode(-1);
-    ListNode current = dummyNode;
+    ListNode dummy = new ListNode(0);
+    ListNode cur = dummy;
+    PriorityQueue<ListNode> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.val));
     for (ListNode list : lists) {
       if (list != null) {
-        priorityQueue.add(list); // 这一步很关键，不能也没有必要将空对象添加到优先队列中
+        pq.add(list);
       }
     }
-    while (!priorityQueue.isEmpty()) {
-      ListNode node = priorityQueue.poll(); // 优先队列非空才能出队
-      current.next = node; // 当前节点的 next 指针指向出队元素
-      current = current.next; // 当前指针向前移动一个元素，指向了刚刚出队的那个元素
-      if (current.next != null) {
-        priorityQueue.add(current.next);  // 只有非空节点才能加入到优先队列中
+    while (pq.peek() != null) {
+      ListNode smallest = pq.poll();
+      cur.next = smallest;
+      cur = cur.next;
+      smallest = smallest.next;
+      if (smallest != null) {
+        pq.add(smallest);
       }
     }
-    return dummyNode.next;
+    return dummy.next;
   }
 
-  // divide and conquer
+
+  public static void main(String[] args) {
+    int[][] array = {
+      {1, 4, 5},
+      {1, 3, 4},
+      {2, 6}
+    };
+    ListNode[] currs = new ListNode[array.length];
+    ListNode[] lists = new ListNode[array.length];
+    for (int i = 0; i < array.length; i++) {
+      currs[i] = new ListNode(array[i][0]);
+      lists[i] = currs[i];
+      for (int j = 1; j < array[i].length; j++) {
+        currs[i].next = new ListNode(array[i][j]);
+        currs[i] = currs[i].next;
+      }
+    }
+
+    N0023H_MergeKSortedLists runner = new N0023H_MergeKSortedLists();
+    ListNode head = runner.mergeKLists1(lists);
+    // ListNode head = runner.mergeKLists2(lists);
+    // ListNode head = runner.mergeKLists3(lists);
+
+    StringBuilder sb = new StringBuilder("[");
+    while (head != null) {
+      sb.append(head.val).append(", ");
+      head = head.next;
+    }
+    sb.deleteCharAt(sb.length() - 2).append("]");
+    System.out.println(sb.toString());
+  }
 
 }

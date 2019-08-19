@@ -11,8 +11,10 @@
     * [[solution]](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/4-xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-shu/)      
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0004H_MedianOfTwoSortedArrays.java)      
 - [ ] [* N0005M_LongestPalindromicSubstring_最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
-    * [[solution]]()
+    * [[solution]](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0005M_LongestPalindromicSubstring.java)      
     * 中心扩展，动态规划，Manacher(马拉车)
+    * TODO: 马拉车算法
 - [x] [N0006M_ZigZagConversion_Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) [string]
     * [[solution]](https://leetcode-cn.com/problems/zigzag-conversion/solution/z-zi-xing-bian-huan-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0006M_ZigZagConversion.java)      
@@ -33,15 +35,107 @@
     * [[solution]](https://leetcode-cn.com/problems/container-with-most-water/solution/sheng-zui-duo-shui-de-rong-qi-by-leetcode/)
     * [[solution]](https://leetcode-cn.com/problems/container-with-most-water/solution/zhi-guan-de-shuang-zhi-zhen-fa-jie-shi-by-na-kong/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0011M_ContainerWithMostWater.java)
-- [ ] [N0012M_IntegerToRoman_整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [math, string]
+- [x] [N0012M_IntegerToRoman_整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/integer-to-roman/solution/ha-xi-jie-jue-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0012M_IntegerToRoman.java)
+- [x] [N0013E_RomanToInteger_罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) [math, string]
+      [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0013E_RomanToInteger.java)
+- [x] [N0014E_LongestCommonPrefix_最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/) [string, divide-and-conquer] 
+      [[solution]](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0014E_LongestCommonPrefix.java)
+- [x] [* N0015M_3Sum_三数之和](https://leetcode-cn.com/problems/3sum/submissions/) [array, double-pointer]
+      [[solution]](https://leetcode-cn.com/problems/3sum/solution/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0015M_3Sum.java)
+- [x] [N0016M_3SumClosest_最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) [array, double-pointer]
+      [[solution]](https://leetcode-cn.com/problems/3sum-closest/solution/hua-jie-suan-fa-16-zui-jie-jin-de-san-shu-zhi-he-b/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0016M_3SumClosest.java)
+- [x] [N0017M_LetterCombinationsOfAPhoneNumber_电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) [string, backtrack]
+      [[solution]](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/leetcode-17-letter-combinations-of-a-phone-number-/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0017M_LetterCombinationsOfAPhoneNumber.java)
+- [x] [* N0018M_4Sum_四数之和](https://leetcode-cn.com/problems/4sum/) [array, hash, double-pointer] 
+      [[solution]](https://leetcode-cn.com/problems/4sum/solution/gu-ding-liang-ge-shu-yong-shuang-zhi-zhen-zhao-lin/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0018M_4Sum.java)
+- [x] [* N0019M_RemoveNthNodeFromEndOfList_删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) [linkedlist, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0019M_RemoveNthNodeFromEndOfList.java)
+    * 重点看第二种解法：双指针的妙用
+    * 本题技巧：dummy-node， two-pointers      
+- [x] [N0020E_ValidParentheses_有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) [stack, string]
+    * [[solution_noop]](https://leetcode-cn.com/problems/valid-parentheses/solution/you-xiao-de-gua-hao-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0020E_ValidParentheses.java)
+- [x] [* N0021E_MergeTwoSortedLists_合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) [linkedlist]
+    * [[solution]](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/he-bing-liang-ge-you-xu-lian-biao-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0021E_MergeTwoSortedLists.java)
+    * 可以用递归
+- [x] [* N0022M_GenerateParentheses_括号生成](https://leetcode-cn.com/problems/generate-parentheses/) [string, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0022M_GenerateParentheses.java)
+- [x] [* N0023H_MergeKSortedLists_合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) [heap, linkedlist, divide-and-conquer] 
+    * [[solution]](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/leetcode-23-he-bing-kge-pai-xu-lian-biao-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0023H_MergeKSortedLists.java)
+    * 是N0021E合并2个有序链表的升级版
+    * 这个题的多种解法不错：优先队列优化，分治归并
+- [x] [* N0024M_SwapNodesInPairs_两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) [linkedlist]
+    * [[solution]](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0024M_SwapNodesInPairs.java)
+    * 迭代和递归两种方法都练习下。     
+    
+- [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-
-
-
 - [ ] []()
-      [[solution]]()
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    
 
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
       [[solution]]()
@@ -50,9 +144,6 @@
 - [ ] [214. Shortest Palindrome 最短回文串](https://leetcode-cn.com/problems/shortest-palindrome/)
       [[solution]]()
 - [ ] [266. Palindrome Permutation 回文排列](https://leetcode-cn.com/problems/palindrome-permutation/)
-      [[solution]]()
-
-- [ ] [14 最长公共前缀 ](https://leetcode-cn.com/problems/longest-common-prefix)
       [[solution]]()
 - [ ] [42 字符串相乘](https://leetcode-cn.com/problems/multiply-strings)
       [[solution]]()
@@ -76,10 +167,8 @@
       [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
 - [x] [N0017M_LetterCombinationsOfAPhoneNumber_电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
       [[solution]](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/dian-hua-hao-ma-de-zi-mu-zu-he-by-leetcode/)
-- [x] [N0020E_ValidParentheses_有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
-      [[solution_noop]]()
-- [x] [* N0022M_GenerateParentheses_括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
-      [[solution]](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)
+
+
 - [x] [* N0028E_ImplementStrStr_实现strStr()](https://leetcode-cn.com/problems/implement-strstr/)
       [[solution]](https://leetcode-cn.com/problems/implement-strstr/solution/c5chong-jie-fa-ku-han-shu-bfkmpbmsunday-by-2227/)
       TODO: 查看String.indexOf的暴力破解法
@@ -111,20 +200,10 @@
       TODO: 表达式(前缀，中缀，后缀) 与 二叉树的相互转换
       TODO: 逆波兰计算器
 
-- [x] [* N0019M_RemoveNthNodeFromEndOfList_删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
-      [[solution]](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
-    * 重点看第二种解法：双指针的妙用
-    * 本题技巧：dummy-node， two-pointers 
-- [x] [N0021E_MergeTwoSortedLists_合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-      [[solution]](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/he-bing-liang-ge-you-xu-lian-biao-by-leetcode/)
-    * 可以用递归
-- [x] [* N0023H_MergeKSortedLists_合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
-      [[solution]]()
-    * 是N0021E合并2个有序链表的升级版
-    * 这个题的多种解法不错：优先队列优化，分治归并
-- [x] [* N0024M_SwapNodesInPairs_两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
-      [[solution]](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/)
-    * 迭代和递归两种方法都练习下。 
+ 
+
+
+
 - [ ] [* N0025H_ReverseNodesInKGroup_K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
       [[solution]](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/kge-yi-zu-fan-zhuan-lian-biao-by-powcai/)
     * TODO: 还没做完，需要接着做；  

@@ -42,7 +42,7 @@ public class N0147M_InsertionSortList {
 
   public static void main(String[] args) {
     N0147M_InsertionSortList runner = new N0147M_InsertionSortList();
-    ListNode ans = runner.insertionSortList(ListNode.factory(new int[]{4, 2, 1, 3}));
+    ListNode ans = runner.insertionSortList(ListNode.newList(new int[]{4, 2, 1, 3}));
     ListNode.print("result: " , ans);
   }
 }

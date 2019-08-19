@@ -34,7 +34,7 @@ public class N0082M_RemoveDuplicatesFromSortedListII {
   public static void main(String[] args) {
     N0082M_RemoveDuplicatesFromSortedListII runner =
       new N0082M_RemoveDuplicatesFromSortedListII();
-    ListNode head = ListNode.factory(new int[]{1, 2, 3, 3, 4, 4, 5});
+    ListNode head = ListNode.newList(new int[]{1, 2, 3, 3, 4, 4, 5});
     ListNode.print("input: ", head);
     ListNode ans = runner.deleteDuplicates(head);
     ListNode.print("output: ", ans);

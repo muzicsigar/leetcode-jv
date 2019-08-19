@@ -24,7 +24,13 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0009_PalindromeNumber_回文数](https://leetcode-cn.com/problems/palindrome-number/) [math]
       [[solution]](https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode/)
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0009_PalindromeNumber.java)
-      
+- [x] [N0012M_IntegerToRoman_整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/integer-to-roman/solution/ha-xi-jie-jue-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0012M_IntegerToRoman.java)      
+- [x] [N0013E_RomanToInteger_罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) [math, string]
+      [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0013E_RomanToInteger.java)
+    
 - [ ] []()
       [[solution]]()
 - [ ] []()

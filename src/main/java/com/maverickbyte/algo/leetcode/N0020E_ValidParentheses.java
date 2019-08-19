@@ -10,31 +10,23 @@ public class N0020E_ValidParentheses {
 
 
   public boolean isValid(String s) {
-    if (null == s) {
-      throw new NullPointerException();
-    }
-    if (s.length() == 0) {
-      return true;
-    }
     LinkedList<Character> stack = new LinkedList<>();
     for (int i = 0; i < s.length(); i++) {
-      char c = s.charAt(i);
-      if (c == '(' || c == '[' || c == '{') {
-        stack.push(c);
+      char ch = s.charAt(i);
+      if (ch == '(' || ch == '[' || ch == '{') {
+        stack.push(ch);
       } else {
-        Character last = stack.peek();
-        if (last == null) {
+        if (stack.isEmpty()) {
           return false;
         }
-        if ((last.equals('(') && c == ')')
-          || (last.equals('[') && (c == ']'))
-          || (last.equals('{') && c == '}')) {
-          stack.pop();
-        } else {
+        Character cmp = stack.pop();
+        if (ch == ')' && !cmp.equals('(')
+          || ch == ']' && !cmp.equals('[')
+          || ch == '}' && !cmp.equals('{')) {
           return false;
         }
       }
     }
-    return stack.size() == 0;
+    return stack.isEmpty();
   }
 }

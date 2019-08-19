@@ -18,6 +18,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0003M_LongestSubstringWithoutRepeatingCharacters_无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [hash, double-pointer, string, sliding-window]
       [[solution]](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetcod/) 
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0003M_LengthOfLongestSubstring.java)      
+- [x] [* N0018M_4Sum_四数之和](https://leetcode-cn.com/problems/4sum/) [array, hash, double-pointer] 
+      [[solution]](https://leetcode-cn.com/problems/4sum/solution/gu-ding-liang-ge-shu-yong-shuang-zhi-zhen-zhao-lin/)
+      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0018M_4Sum.java)      
 - [ ] []()
       [[solution]]()
 - [ ] []()

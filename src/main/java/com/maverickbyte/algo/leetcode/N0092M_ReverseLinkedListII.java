@@ -60,7 +60,7 @@ public class N0092M_ReverseLinkedListII {
 
   public static void main(String[] args) {
     N0092M_ReverseLinkedListII runner = new N0092M_ReverseLinkedListII();
-    ListNode head = ListNode.factory(new int[]{1, 2, 3, 4, 5});
+    ListNode head = ListNode.newList(new int[]{1, 2, 3, 4, 5});
     ListNode ans = runner.reverseBetween(head, 2, 4);
     ListNode.print(ans);
   }

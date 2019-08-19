@@ -16,7 +16,6 @@ public class N0021E_MergeTwoSortedLists {
         cur.next = l2;
         l2 = l2.next;
       }
-      // cur.next.next = null;
       cur = cur.next;
     }
     cur.next = l1 == null ? l2 : l1;
@@ -26,25 +25,19 @@ public class N0021E_MergeTwoSortedLists {
 
   // using recursion: time: -> O(n + m), space -> O(n + m). from tail to head.
   public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
-    // base case
     if(l1 == null) {
       return l2;
     }
     if(l2 == null) {
       return l1;
     }
-
-    // making progress
-    // supposing l1.next and l2.next are both processed
     if(l1.val < l2.val) {
-      // l1 to be the head
       l1.next = mergeTwoLists2(l1.next, l2);
       return l1;
     } else {
       l2.next = mergeTwoLists2(l1, l2.next);
       return l2;
     }
-
   }
 
 }

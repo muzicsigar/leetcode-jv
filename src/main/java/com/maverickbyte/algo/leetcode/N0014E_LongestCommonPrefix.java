@@ -6,43 +6,68 @@ package com.maverickbyte.algo.leetcode;
  */
 public class N0014E_LongestCommonPrefix {
 
-  /*
-   * 重点学习这道题的不同解法， 面对一个问题，我们分别可以从哪些方面入手。
-   */
-
-  /* =============================== brutal-force ==================================*/
-  public String longestCommonPrefix(String[] strs) {
-    if (strs == null || strs.length == 0) {
+  public String longestCommonPrefix1(String[] strs) {
+    if (null == strs || strs.length == 0) {
       return "";
     }
     if (strs.length == 1) {
       return strs[0];
     }
-
-    boolean flag = true;
-    int targetCharIndex = 0;
-    int targetChar = 0;
-    while (flag) {
-      for (int k = 0; k < strs.length; k++) {
-        if (targetCharIndex == strs[k].length()) {
-          flag = false;
+    int i = 0;
+    while (true) {
+      int j = 0;
+      while (j < strs.length - 1) {
+        String cur = strs[j];
+        String next = strs[j + 1];
+        if (i == cur.length() || i == next.length() || cur.charAt(i) != next.charAt(i)) {
           break;
         }
-        if (k == 0) {
-          targetChar = strs[0].charAt(targetCharIndex);
-        } else if (targetChar != strs[k].charAt(targetCharIndex)) {
-          flag = false;
-          break;
-        }
+        j++;
       }
-      if(!flag) {
+      if (j == strs.length - 1) {
+        i++;
+      } else {
         break;
       }
-      targetCharIndex++;
     }
-    return strs[0].substring(0, targetCharIndex);
+    if (i > 0) {
+      return strs[0].substring(0, i);
+    } else {
+      return "";
+    }
   }
 
+  /* =============================================================================================
+      divide and conquer
+     ============================================================================================= */
+  public String longestCommonPrefix2(String[] strs) {
+    if (null == strs || strs.length == 0) {
+      return "";
+    }
+    if (strs.length == 1) {
+      return strs[0];
+    }
+    return commonPrefix(strs, 0, strs.length - 1);
+  }
+
+  private String commonPrefix(String[] strs, int left, int right) {
+    if (left == right) {
+      return strs[left];
+    }
+    int mid = (left + right) / 2;
+    String str1 = commonPrefix(strs, left, mid);
+    String str2 = commonPrefix(strs, mid + 1, right);
+    int minLen = Math.min(str1.length(), str2.length());
+    int endIdx = -1;
+    for (int i = 0; i < minLen; i++) {
+      if (str1.charAt(i) == str2.charAt(i)) {
+        endIdx = i;
+      } else {
+        break;
+      }
+    }
+    return endIdx >= 0 ? str1.substring(0, endIdx + 1) : "";
+  }
 
 
 

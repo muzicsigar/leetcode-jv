@@ -32,52 +32,25 @@ public class N0015M_3Sum {
 
 
   public List<List<Integer>> threeSum2(int[] nums) {
-
-    // npe check, bound check
-    List<List<Integer>> ans = new ArrayList<>();
-    int size = nums.length;
-    if (null == nums || size < 3) {
-      return ans;
-    }
-    // sort array
-    Arrays.sort(nums); // like quick-sort, O(nlogn)
-    for (int i = 0; i < size - 2; i++) {
-
-      // quick return condition
-      if (nums[i] > 0) {
-        break;
-      }
-      if (i > 0 && nums[i] == nums[i - 1]) {
-        continue;
-      }
-
-
-      int j = i + 1;
-      int k = size - 1;
-      while (j < k) {
-        if (nums[i] + nums[j] > 0) {
-          break;
-        }
-        int sum = nums[i] + nums[j] + nums[k];
-        if (sum == 0) {
-          ans.add(Arrays.asList(nums[i], nums[j], nums[k]));
-          // remove j, k duplicates
-          while (j < k && nums[j] == nums[j + 1]) {
-            ++j;
-          }
-          while (j < k && nums[k] == nums[k - 1]) {
-            --k;
-          }
-          ++j;
-          --k;
-        } else if (sum < 0) {
-          ++j;
+    Arrays.sort(nums);
+    List<List<Integer>> res = new ArrayList<>();
+    for(int k = 0; k < nums.length - 2; k++){
+      if(nums[k] > 0) break;
+      if(k > 0 && nums[k] == nums[k - 1]) continue;
+      int i = k + 1, j = nums.length - 1;
+      while(i < j){
+        int sum = nums[k] + nums[i] + nums[j];
+        if(sum < 0){
+          while(i < j && nums[i] == nums[++i]);
+        } else if (sum > 0) {
+          while(i < j && nums[j] == nums[--j]);
         } else {
-          --k;
+          res.add(new ArrayList<Integer>(Arrays.asList(nums[k], nums[i], nums[j])));
+          while(i < j && nums[i] == nums[++i]);
+          while(i < j && nums[j] == nums[--j]);
         }
       }
     }
-
-    return ans;
+    return res;
   }
 }
