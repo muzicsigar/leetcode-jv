@@ -30,7 +30,11 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0013E_RomanToInteger_罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) [math, string]
       [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0013E_RomanToInteger.java)
-    
+- [x] [* N0029M_DivideTwoIntegers_两数相除](https://leetcode-cn.com/problems/divide-two-integers/) [math, binary-search]
+    * [[solution]](https://leetcode.com/problems/divide-two-integers/discuss/13397/Clean-Java-solution-with-some-comment.)
+    * [[solution]](https://leetcode-cn.com/problems/divide-two-integers/solution/xiao-xue-sheng-du-hui-de-lie-shu-shi-suan-chu-fa-b/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0029M_DivideTwoIntegers.java)
+
 - [ ] []()
       [[solution]]()
 - [ ] []()

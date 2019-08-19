@@ -12,3 +12,9 @@
 - [x] [* N0018M_4Sum_四数之和](https://leetcode-cn.com/problems/4sum/) [array, hash, double-pointer] 
       [[solution]](https://leetcode-cn.com/problems/4sum/solution/gu-ding-liang-ge-shu-yong-shuang-zhi-zhen-zhao-lin/)
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0018M_4Sum.java)      
+- [x] [N0026E_RemoveDuplicatesFromSortedArray_删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) [array, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-by-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0026E_RemoveDuplicatesFromSortedArray.java)      
+- [x] [N0027E_RemoveElement_移除元素](https://leetcode-cn.com/problems/remove-element/) [array, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0027E_RemoveElement.java)

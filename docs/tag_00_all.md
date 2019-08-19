@@ -71,7 +71,7 @@
 - [x] [* N0022M_GenerateParentheses_括号生成](https://leetcode-cn.com/problems/generate-parentheses/) [string, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0022M_GenerateParentheses.java)
-- [x] [* N0023H_MergeKSortedLists_合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) [heap, linkedlist, divide-and-conquer] 
+- [x] [** N0023H_MergeKSortedLists_合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) [heap, linkedlist, divide-and-conquer] 
     * [[solution]](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/leetcode-23-he-bing-kge-pai-xu-lian-biao-by-powcai/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0023H_MergeKSortedLists.java)
     * 是N0021E合并2个有序链表的升级版
@@ -80,16 +80,28 @@
     * [[solution]](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0024M_SwapNodesInPairs.java)
     * 迭代和递归两种方法都练习下。     
+- [ ] [** N0025H_ReverseNodesInKGroup_K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+    * [[solution]](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/kge-yi-zu-fan-zhuan-lian-biao-by-powcai/)
+    * TODO: 还没做完，需要接着做；  
+    * 学会翻转链表(迭代方式，递归方式)：见`N0206E`
+- [x] [N0026E_RemoveDuplicatesFromSortedArray_删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) [array, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-by-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0026E_RemoveDuplicatesFromSortedArray.java)    
+- [x] [N0027E_RemoveElement_移除元素](https://leetcode-cn.com/problems/remove-element/) [array, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0027E_RemoveElement.java)
+- [ ] [** N0028E_ImplementStrStr_实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) [string, double-pointer]
+      [[solution]](https://leetcode-cn.com/problems/implement-strstr/solution/c5chong-jie-fa-ku-han-shu-bfkmpbmsunday-by-2227/)
+      TODO: 查看String.indexOf的暴力破解法
+      TODO: KMP algorithm
+      TODO: BM algorithm
+      TODO: Sunday algorithm
+      TODO：Trie + KMP => AC状态机    
+- [x] [* N0029M_DivideTwoIntegers_两数相除](https://leetcode-cn.com/problems/divide-two-integers/) [math, binary-search]
+    * [[solution]](https://leetcode.com/problems/divide-two-integers/discuss/13397/Clean-Java-solution-with-some-comment.)
+    * [[solution]](https://leetcode-cn.com/problems/divide-two-integers/solution/xiao-xue-sheng-du-hui-de-lie-shu-shi-suan-chu-fa-b/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0029M_DivideTwoIntegers.java)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
@@ -169,13 +181,7 @@
       [[solution]](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/dian-hua-hao-ma-de-zi-mu-zu-he-by-leetcode/)
 
 
-- [x] [* N0028E_ImplementStrStr_实现strStr()](https://leetcode-cn.com/problems/implement-strstr/)
-      [[solution]](https://leetcode-cn.com/problems/implement-strstr/solution/c5chong-jie-fa-ku-han-shu-bfkmpbmsunday-by-2227/)
-      TODO: 查看String.indexOf的暴力破解法
-      TODO: KMP algorithm
-      TODO: BM algorithm
-      TODO: Sunday algorithm
-      TODO：Trie + KMP => AC状态机
+
       
 - [ ] [N0030H_SubstringWithConcatenationOfAllWords_串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
       [[solution]]()
@@ -204,10 +210,7 @@
 
 
 
-- [ ] [* N0025H_ReverseNodesInKGroup_K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
-      [[solution]](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/kge-yi-zu-fan-zhuan-lian-biao-by-powcai/)
-    * TODO: 还没做完，需要接着做；  
-    * need practice
+
 - [x] [N0061M_RotateList_旋转链表](https://leetcode-cn.com/problems/rotate-list/)
       [[solution]](https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/)
 - [ ] [N0083E_RemoveDuplicatesFromSortedList_删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)

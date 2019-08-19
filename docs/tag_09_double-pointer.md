@@ -27,8 +27,15 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[solution]](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0019M_RemoveNthNodeFromEndOfList.java)
     * 重点看第二种解法：双指针的妙用
-    * 本题技巧：dummy-node， two-pointers      
-      
+    * 本题技巧：dummy-node， two-pointers            
+- [x] [N0026E_RemoveDuplicatesFromSortedArray_删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) [array, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-by-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0026E_RemoveDuplicatesFromSortedArray.java)
+- [x] [N0027E_RemoveElement_移除元素](https://leetcode-cn.com/problems/remove-element/) [array, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0027E_RemoveElement.java)
+
+    
 - [ ] []()
       [[solution]]()
 - [ ] []()
