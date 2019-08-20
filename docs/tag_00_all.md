@@ -1,3 +1,9 @@
+## TODO
+
+
+
+
+## All Quizzes
 - [x] [N0001E_TwoSum_两数之和](https://leetcode-cn.com/problems/two-sum/) [array, hash]
     * [[solution]](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2/)    
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0001E_TwoSum.java)
@@ -39,23 +45,23 @@
     * [[solution]](https://leetcode-cn.com/problems/integer-to-roman/solution/ha-xi-jie-jue-by-powcai/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0012M_IntegerToRoman.java)
 - [x] [N0013E_RomanToInteger_罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) [math, string]
-      [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0013E_RomanToInteger.java)
+    * [[solution]](https://leetcode-cn.com/problems/roman-to-integer/solution/hua-jie-suan-fa-13-luo-ma-shu-zi-zhuan-zheng-shu-b/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0013E_RomanToInteger.java)
 - [x] [N0014E_LongestCommonPrefix_最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/) [string, divide-and-conquer] 
-      [[solution]](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0014E_LongestCommonPrefix.java)
+    * [[solution]](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0014E_LongestCommonPrefix.java)
 - [x] [* N0015M_3Sum_三数之和](https://leetcode-cn.com/problems/3sum/submissions/) [array, double-pointer]
-      [[solution]](https://leetcode-cn.com/problems/3sum/solution/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0015M_3Sum.java)
+    * [[solution]](https://leetcode-cn.com/problems/3sum/solution/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0015M_3Sum.java)
 - [x] [N0016M_3SumClosest_最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) [array, double-pointer]
-      [[solution]](https://leetcode-cn.com/problems/3sum-closest/solution/hua-jie-suan-fa-16-zui-jie-jin-de-san-shu-zhi-he-b/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0016M_3SumClosest.java)
+    * [[solution]](https://leetcode-cn.com/problems/3sum-closest/solution/hua-jie-suan-fa-16-zui-jie-jin-de-san-shu-zhi-he-b/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0016M_3SumClosest.java)
 - [x] [N0017M_LetterCombinationsOfAPhoneNumber_电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) [string, backtrack]
-      [[solution]](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/leetcode-17-letter-combinations-of-a-phone-number-/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0017M_LetterCombinationsOfAPhoneNumber.java)
+    * [[solution]](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/leetcode-17-letter-combinations-of-a-phone-number-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0017M_LetterCombinationsOfAPhoneNumber.java)
 - [x] [* N0018M_4Sum_四数之和](https://leetcode-cn.com/problems/4sum/) [array, hash, double-pointer] 
-      [[solution]](https://leetcode-cn.com/problems/4sum/solution/gu-ding-liang-ge-shu-yong-shuang-zhi-zhen-zhao-lin/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0018M_4Sum.java)
+    * [[solution]](https://leetcode-cn.com/problems/4sum/solution/gu-ding-liang-ge-shu-yong-shuang-zhi-zhen-zhao-lin/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0018M_4Sum.java)
 - [x] [* N0019M_RemoveNthNodeFromEndOfList_删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) [linkedlist, double-pointer]
     * [[solution]](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0019M_RemoveNthNodeFromEndOfList.java)
@@ -91,23 +97,23 @@
     * [[solution]](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0027E_RemoveElement.java)
 - [ ] [** N0028E_ImplementStrStr_实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) [string, double-pointer]
-      [[solution]](https://leetcode-cn.com/problems/implement-strstr/solution/c5chong-jie-fa-ku-han-shu-bfkmpbmsunday-by-2227/)
-      TODO: 查看String.indexOf的暴力破解法
-      TODO: KMP algorithm
-      TODO: BM algorithm
-      TODO: Sunday algorithm
-      TODO：Trie + KMP => AC状态机    
+    * [[solution]](https://leetcode-cn.com/problems/implement-strstr/solution/c5chong-jie-fa-ku-han-shu-bfkmpbmsunday-by-2227/)
+    * TODO: 查看String.indexOf的暴力破解法
+    * TODO: KMP algorithm
+    * TODO: BM algorithm
+    * TODO: Sunday algorithm
+    * TODO：Trie + KMP => AC状态机    
 - [x] [* N0029M_DivideTwoIntegers_两数相除](https://leetcode-cn.com/problems/divide-two-integers/) [math, binary-search]
     * [[solution]](https://leetcode.com/problems/divide-two-integers/discuss/13397/Clean-Java-solution-with-some-comment.)
     * [[solution]](https://leetcode-cn.com/problems/divide-two-integers/solution/xiao-xue-sheng-du-hui-de-lie-shu-shi-suan-chu-fa-b/)
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0029M_DivideTwoIntegers.java)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0029M_DivideTwoIntegers.java)    
+- [ ] [N0030H_SubstringWithConcatenationOfAllWords_串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] [N0031M_NextPermutation_下一个排列](https://leetcode-cn.com/problems/next-permutation/)
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
