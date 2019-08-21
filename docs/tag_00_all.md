@@ -113,18 +113,18 @@
 - [x] [* N0031M_NextPermutation_下一个排列](https://leetcode-cn.com/problems/next-permutation/) [array]
     * [[solution]](https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0031M_NextPermutation.java)
-    
 - [x] [** N0032H_LongestValidParentheses_最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) [string, stack, dp]
     * [[solution]](https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
     * 多种解法: brutal-force, dp, stack, left&right
     * 暴力解法包含括号验证的子问题
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [x] [N0033M_SearchInRotatedSortedArray_搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0033M_SearchInRotatedSortedArray.java)
+- [x] [** N0034M_FindFirstAndLastPositionOfElementInSortedArray_在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0034M_FindFirstAndLastPositionOfElementInSortedArray.java)
+    
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
