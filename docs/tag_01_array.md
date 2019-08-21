@@ -18,3 +18,6 @@
 - [x] [N0027E_RemoveElement_移除元素](https://leetcode-cn.com/problems/remove-element/) [array, double-pointer]
     * [[solution]](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0027E_RemoveElement.java)
+- [x] [* N0031M_NextPermutation_下一个排列](https://leetcode-cn.com/problems/next-permutation/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0031M_NextPermutation.java)    

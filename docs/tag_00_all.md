@@ -110,13 +110,15 @@
 - [ ] [N0030H_SubstringWithConcatenationOfAllWords_串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] [N0031M_NextPermutation_下一个排列](https://leetcode-cn.com/problems/next-permutation/)
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [x] [* N0031M_NextPermutation_下一个排列](https://leetcode-cn.com/problems/next-permutation/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0031M_NextPermutation.java)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [x] [** N0032H_LongestValidParentheses_最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) [string, stack, dp]
+    * [[solution]](https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
+    * 多种解法: brutal-force, dp, stack, left&right
+    * 暴力解法包含括号验证的子问题
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)

@@ -41,6 +41,11 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0022M_GenerateParentheses_括号生成](https://leetcode-cn.com/problems/generate-parentheses/) [string, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0022M_GenerateParentheses.java)
+- [x] [** N0032H_LongestValidParentheses_最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) [string, stack, dp]
+    * [[solution]](https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
+    * 多种解法: brutal-force, dp, stack, left&right
+    * 暴力解法包含括号验证的子问题
       
           
           
