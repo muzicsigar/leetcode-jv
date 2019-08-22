@@ -21,6 +21,12 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0018M_4Sum_四数之和](https://leetcode-cn.com/problems/4sum/) [array, hash, double-pointer] 
       [[solution]](https://leetcode-cn.com/problems/4sum/solution/gu-ding-liang-ge-shu-yong-shuang-zhi-zhen-zhao-lin/)
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0018M_4Sum.java)      
+- [x] [N0036M_ValidSudoku_有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) [hash]
+    * [[solution]](https://leetcode-cn.com/problems/valid-sudoku/solution/you-xiao-de-shu-du-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0036M_ValidSudoku.java)      
+- [x] [* N0037H_SudokuSolver_解数独](https://leetcode-cn.com/problems/sudoku-solver/) [hash, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0037H_SudokuSolver.java)
 - [ ] []()
       [[solution]]()
 - [ ] []()

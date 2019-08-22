@@ -1,5 +1,7 @@
 ## TODO
-
+- 总结二分查找，我收藏了两个题解。根据他们进行总结
+    * https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
+    * https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula
 
 
 
@@ -124,18 +126,18 @@
 - [x] [** N0034M_FindFirstAndLastPositionOfElementInSortedArray_在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [array, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0034M_FindFirstAndLastPositionOfElementInSortedArray.java)
+- [x] [N0035E_SearchInsertPosition_搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0035E_SearchInsertPosition.java)
+- [x] [N0036M_ValidSudoku_有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) [hash]
+    * [[solution]](https://leetcode-cn.com/problems/valid-sudoku/solution/you-xiao-de-shu-du-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0036M_ValidSudoku.java)    
+- [x] [* N0037H_SudokuSolver_解数独](https://leetcode-cn.com/problems/sudoku-solver/) [hash, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0037H_SudokuSolver.java)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
+- [ ] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/)
+    * [[solution]](https://leetcode-cn.com/problems/count-and-say/solution/38-bao-shu-java-xun-huan-by-pphdsny/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()
     * [[solution]]()
@@ -193,8 +195,7 @@
       
 - [ ] [N0030H_SubstringWithConcatenationOfAllWords_串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
       [[solution]]()
-- [x] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/)
-      [[solution]](https://leetcode-cn.com/problems/count-and-say/solution/38-bao-shu-java-xun-huan-by-pphdsny/)
+
 - [x] [N0049M_GroupAnagrams_字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
       [[solution]](https://leetcode-cn.com/problems/group-anagrams/solution/zi-mu-yi-wei-ci-fen-zu-by-leetcode/)
 - [x] [N0058E_LengthOfLastWord_最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)

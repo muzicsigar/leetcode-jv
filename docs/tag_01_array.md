@@ -27,3 +27,6 @@
 - [x] [** N0034M_FindFirstAndLastPositionOfElementInSortedArray_在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [array, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0034M_FindFirstAndLastPositionOfElementInSortedArray.java)
+- [x] [N0035E_SearchInsertPosition_搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0035E_SearchInsertPosition.java)
