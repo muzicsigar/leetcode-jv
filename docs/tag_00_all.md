@@ -1,8 +1,12 @@
 ## TODO
-- 总结二分查找，我收藏了两个题解。根据他们进行总结
+- [ ] 总结二分查找，我收藏了两个题解。根据他们进行总结
     * https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
     * https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula
-
+- [ ] 总结回溯
+    * 总结如何处理回溯的步骤： 比如确定每一次会有多少个branch等
+    * 剪枝提高效率
+    * 通过剪枝条件去重
+    * 通过数组排序去重
 
 
 ## All Quizzes
@@ -135,9 +139,92 @@
 - [x] [* N0037H_SudokuSolver_解数独](https://leetcode-cn.com/problems/sudoku-solver/) [hash, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0037H_SudokuSolver.java)
-    
-- [ ] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/)
+- [x] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/) [string]
     * [[solution]](https://leetcode-cn.com/problems/count-and-say/solution/38-bao-shu-java-xun-huan-by-pphdsny/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0038E_CountAndSay.java)
+- [x] [N0039M_CombinationSum_组合总和](https://leetcode-cn.com/problems/combination-sum/) [array, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0039M_CombinationSum.java)
+- [x] [N0040M_CombinationSumII_组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/) [array, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-3/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0040M_CombinationSumII.java)    
+- [x] [* N0041H_FirstMissingPositive_缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/first-missing-positive/solution/tong-pai-xu-python-dai-ma-by-liweiwei1419/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0041H_FirstMissingPositive.java)    
+- [ ] [* N0042H_TrappingRainWater_接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+    * [[solution]](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/)
+    * [[solution]](https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0042H_TrappingRainWater.java)
+- [ ] [* N0043M_MultiplyStrings_字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/multiply-strings/solution/javajie-fa-by-4e5ylbtogw/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0043M_MultiplyStrings.java)
+- [ ] [N0044H_WildcardMatching_通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] []()
+    * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()
     * [[solution]]()

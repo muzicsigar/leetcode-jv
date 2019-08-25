@@ -20,6 +20,12 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0037H_SudokuSolver_解数独](https://leetcode-cn.com/problems/sudoku-solver/) [hash, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0037H_SudokuSolver.java)
+- [x] [N0039M_CombinationSum_组合总和](https://leetcode-cn.com/problems/combination-sum/) [array, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0039M_CombinationSum.java)    
+- [x] [N0040M_CombinationSumII_组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/) [array, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-3/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0040M_CombinationSumII.java)
           
 #### 2. Difficulty Top 5
     

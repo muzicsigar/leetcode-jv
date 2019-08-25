@@ -46,6 +46,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
     * 多种解法: brutal-force, dp, stack, left&right
     * 暴力解法包含括号验证的子问题
+- [x] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/) [string]
+    * [[solution]](https://leetcode-cn.com/problems/count-and-say/solution/38-bao-shu-java-xun-huan-by-pphdsny/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0038E_CountAndSay.java)
       
           
           

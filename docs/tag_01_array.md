@@ -30,3 +30,12 @@
 - [x] [N0035E_SearchInsertPosition_搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [array, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0035E_SearchInsertPosition.java)
+- [x] [N0039M_CombinationSum_组合总和](https://leetcode-cn.com/problems/combination-sum/) [array, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0039M_CombinationSum.java)    
+- [x] [N0040M_CombinationSumII_组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/) [array, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-3/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0040M_CombinationSumII.java)
+- [x] [* N0041H_FirstMissingPositive_缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/first-missing-positive/solution/tong-pai-xu-python-dai-ma-by-liweiwei1419/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0041H_FirstMissingPositive.java)
