@@ -8,32 +8,20 @@ public class N0058E_LengthOfLastWord {
 
 
   public int lengthOfLastWord(String s) {
-    if (null == s || s.length() == 0) {
-      return 0;
-    }
-
-    int len = s.length();
-
-    int end = len;
-    for (int i = len - 1; i >= 0; i--) {
-      if (s.charAt(i) != ' ') {
-        end = i;
+    int end = s.length() - 1;
+    while (end >= 0) {
+      if (s.charAt(end) != ' ') {
         break;
       }
+      end--;
     }
-    if(end == len) {
-      return 0;
-    }
-
-    int start = -1;
-    for (int i = end; i >= 0; i--) {
-      if (s.charAt(i) == ' ') {
-        start = i;
-        break;
-      } else if (i == 0) {
+    int start = end;
+    while (start >= 0) {
+      if (s.charAt(start) == ' ') {
         break;
       }
+      start--;
     }
-    return end - start;
+    return end < 0 ? 0 : end - start;
   }
 }

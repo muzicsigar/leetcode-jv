@@ -52,3 +52,13 @@
 - [ ] [* N0055M_JumpGame_跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [array, greedy-method, dp]
     * [[solution]](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0055M_JumpGame.java)
+- [x] [N0056M_MergeIntervals_合并区间](https://leetcode-cn.com/problems/merge-intervals/) [sorting, array]
+    * [[solution]](https://leetcode-cn.com/problems/merge-intervals/solution/he-bing-qu-jian-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0056M_MergeIntervals.java)
+- [x] [N0057H_InsertInterval_插入区间](https://leetcode-cn.com/problems/insert-interval/) [sorting, array]
+    * [[solution]](https://leetcode-cn.com/problems/insert-interval/solution/chang-gui-si-kao-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0057H_InsertInterval.java)
+- [x] [N0059M_SpiralMatrixII_螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0059M_SpiralMatrixII.java)
+    

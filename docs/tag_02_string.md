@@ -52,6 +52,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0049M_GroupAnagrams_字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) [hash, string]
     * [[solution]](https://leetcode-cn.com/problems/group-anagrams/solution/zi-mu-yi-wei-ci-fen-zu-by-leetcode/)    
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0049_MGroupAnagrams.java)  
+- [x] [N0058E_LengthOfLastWord_最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) [string]
+    * [[solution]](https://leetcode-cn.com/problems/length-of-last-word/solution/hua-jie-suan-fa-58-zui-hou-yi-ge-dan-ci-de-chang-d/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0058E_LengthOfLastWord.java)
           
           
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
