@@ -27,6 +27,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0037H_SudokuSolver_解数独](https://leetcode-cn.com/problems/sudoku-solver/) [hash, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0037H_SudokuSolver.java)
+- [x] [N0049M_GroupAnagrams_字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) [hash, string]
+    * [[solution]](https://leetcode-cn.com/problems/group-anagrams/solution/zi-mu-yi-wei-ci-fen-zu-by-leetcode/)    
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0049_MGroupAnagrams.java)
 - [ ] []()
       [[solution]]()
 - [ ] []()

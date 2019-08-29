@@ -26,6 +26,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0035E_SearchInsertPosition_搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [array, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0035E_SearchInsertPosition.java)
+- [x] [* N0050M_Pow](https://leetcode-cn.com/problems/powx-n/) [math, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0050M_Pow.java)
           
 #### 2. Difficulty Top 5
     

@@ -33,6 +33,12 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
     * 多种解法: brutal-force, dp, stack, left&right
     * 暴力解法包含括号验证的子问题
+- [ ] [* N0053E_MaximumSubarray_最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) [array, divide-and-conquer, dp]
+    * [[solution]](https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0053E_MaxSubArray.java)
+- [ ] [* N0055M_JumpGame_跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [array, greedy-method, dp]
+    * [[solution]](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0055M_JumpGame.java)
     
 * [ ] [N1025E_DivisorGame_除数博弈](https://leetcode-cn.com/problems/divisor-game/)
       [[solution]]()

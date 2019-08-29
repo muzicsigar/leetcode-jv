@@ -49,7 +49,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/) [string]
     * [[solution]](https://leetcode-cn.com/problems/count-and-say/solution/38-bao-shu-java-xun-huan-by-pphdsny/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0038E_CountAndSay.java)
-      
+- [x] [N0049M_GroupAnagrams_字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) [hash, string]
+    * [[solution]](https://leetcode-cn.com/problems/group-anagrams/solution/zi-mu-yi-wei-ci-fen-zu-by-leetcode/)    
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0049_MGroupAnagrams.java)  
           
           
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)

@@ -22,6 +22,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0023H_MergeKSortedLists.java)
     * 是N0021E合并2个有序链表的升级版
     * 这个题的多种解法不错：优先队列优化，分治归并      
+- [ ] [* N0053E_MaximumSubarray_最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) [array, divide-and-conquer, dp]
+    * [[solution]](https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0053E_MaxSubArray.java)
         
 - [ ] []()
       [[solution]]()

@@ -1,8 +1,5 @@
 package com.maverickbyte.algo.leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author Alan Li
  * @since 1.0
@@ -10,80 +7,45 @@ import java.util.List;
 public class N0000X_Practice {
 
 
-  public String multiply(String num1, String num2) {
-    if (num1.length() > num2.length()) {
-      String tmp = num1;
-      num1 = num2;
-      num2 = tmp;
-    }
+  /* =============================================================================================
+      comment
+      brutal-force: O(n ^ 2)
+      dp: O(n ^ 2)
 
-    List<List<Integer>> lists = new ArrayList<>();
-    for (int i = num1.length() - 1; i >= 0; i--) {
-      int num = num1.charAt(i) - '0';
-      int zeros = num1.length() - i - 1;
-      while (num > 0) {
-        List<Integer> l = toList(num2);
-        while (zeros > 0) {
-          l.add(0, 0);
-          zeros--;
-        }
-        lists.add(l);
-        num--;
+     ============================================================================================= */
+  public int maxSubArray(int[] nums) {
+    int max = nums[0];
+    for (int i = 0; i < nums.length; ) {
+      while (i < nums.length && nums[i] <= 0) {
+        max = Math.max(max, nums[i]);
+        i++;
       }
+      if (i == nums.length - 1) {
+       break;
+      }
+      int temp = nums[i];
+      int j = i + 1;
+      for (; j < nums.length; ) {
+        if (temp + nums[j] > 0) {
+          temp += nums[j];
+          max = Math.max(max, temp);
+          j++;
+        } else {
+          break;
+        }
+      }
+      i = j + 1;
     }
-    if (lists.isEmpty()) {
-      return "0";
-    }
-    List<Integer> sum = add(lists, 0, lists.size() - 1);
-    StringBuilder sb = new StringBuilder();
-    for (int i = sum.size() - 1; i >= 0; i--) {
-      sb.append(sum.get(i));
-    }
-    return sb.toString();
+    return max;
   }
-
-  private List<Integer> add(List<List<Integer>> lists, int left, int right) {
-    if (left == right) {
-      return lists.get(left);
-    }
-
-    int mid = (left + right) / 2;
-    List<Integer> l1 = add(lists, left, mid);
-    List<Integer> l2 = add(lists, mid + 1, right);
-
-    List<Integer> ans = new ArrayList<>();
-    int len = l1.size() > l2.size() ? l1.size() : l2.size();
-
-    int carry = 0;
-    for (int i = 0; i < len; i++) {
-      int x = l1.size() <= i ? 0 : l1.get(i);
-      int y = l2.size() <= i ? 0 : l2.get(i);
-      int sum = x + y + carry;
-
-      carry = sum / 10;
-      ans.add(sum % 10);
-    }
-    if (carry > 0) {
-      ans.add(carry);
-    }
-    return ans;
-  }
-
-  private List<Integer> toList(String num2) {
-    List<Integer> l = new ArrayList<>();
-    for (int i = num2.length() - 1; i >= 0; i--) {
-      l.add(num2.charAt(i) - '0');
-    }
-    return l;
-  }
-
 
   public static void main(String[] args) {
-    N0000X_Practice r = new N0000X_Practice();
-    String multiply = r.multiply("21231231212312412342142134123"
-      , "1");
-    System.out.println(multiply);
+    N0000X_Practice runner = new N0000X_Practice();
+    int ans = runner.maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4});
+    System.out.println(ans);
   }
+
+
 }
 
 

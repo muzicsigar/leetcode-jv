@@ -12,38 +12,38 @@ import java.util.List;
 public class N0047M_PermutationsII {
 
   public List<List<Integer>> permuteUnique(int[] nums) {
-    if (null == nums || nums.length == 0) {
-      return new ArrayList<>();
-    }
     List<List<Integer>> ans = new ArrayList<>();
-    LinkedList<Integer> permutation = new LinkedList<>();
-    boolean[] used = new boolean[nums.length];
-    // warn: sort array
-    Arrays.sort(nums);
-    backtrack(nums, used, permutation, ans);
+    if (null == nums || nums.length == 0) {
+      return ans;
+    }
+    Arrays.sort(nums); // 去除重复排列必须先排序
+    this.nums = nums;
+    this.visited = new boolean[nums.length];
+    LinkedList<Integer> pre = new LinkedList<>();
+    backtrack(0, pre, ans);
     return ans;
   }
 
-  private void backtrack(int[] nums, boolean[] used,
-                         LinkedList<Integer> permutation,
-                         List<List<Integer>> ans) {
-    if (permutation.size() == nums.length) {
-      ans.add(new ArrayList<>(permutation));
+  private boolean[] visited;
+  private int[] nums;
+
+  private void backtrack(int depth, LinkedList<Integer> pre, List<List<Integer>> ans) {
+    if (depth == nums.length) {
+      ans.add(new ArrayList<>(pre));
       return;
     }
-
     for (int i = 0; i < nums.length; i++) {
-      //剪枝
-      if (i > 0 && nums[i] == nums[i - 1] && !used[i-1]) {
+      if (visited[i]) {
         continue;
       }
-      if (!used[i]) {
-        permutation.addLast(nums[i]);
-        used[i] = true;
-        backtrack(nums, used, permutation, ans);
-        permutation.removeLast();
-        used[i] = false;
+      if (i > 0 && nums[i] == nums[i - 1] && visited[i - 1]) { // 重复排列剪枝
+        continue;
       }
+      pre.add(nums[i]);
+      visited[i] = true;
+      backtrack(depth + 1, pre, ans);
+      pre.removeLast();
+      visited[i] = false;
     }
   }
 }

@@ -39,3 +39,16 @@
 - [x] [* N0041H_FirstMissingPositive_缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) [array]
     * [[solution]](https://leetcode-cn.com/problems/first-missing-positive/solution/tong-pai-xu-python-dai-ma-by-liweiwei1419/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0041H_FirstMissingPositive.java)
+- [x] [N0048M_RotateImage_旋转图像](https://leetcode-cn.com/problems/rotate-image/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/rotate-image/solution/yi-ci-xing-jiao-huan-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0048M_RotateImage.java)
+- [ ] [* N0053E_MaximumSubarray_最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) [array, divide-and-conquer, dp]
+    * [[solution]](https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0053E_MaxSubArray.java)
+- [x] [N0054M_SpiralMatrix_螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+    * [[solution]](https://leetcode-cn.com/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0054M_SpiralMatrix.java)
+- [ ] [* N0055M_JumpGame_跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [array, greedy-method, dp]
+    * [[solution]](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0055M_JumpGame.java)

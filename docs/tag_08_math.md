@@ -34,6 +34,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[solution]](https://leetcode.com/problems/divide-two-integers/discuss/13397/Clean-Java-solution-with-some-comment.)
     * [[solution]](https://leetcode-cn.com/problems/divide-two-integers/solution/xiao-xue-sheng-du-hui-de-lie-shu-shi-suan-chu-fa-b/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0029M_DivideTwoIntegers.java)
+- [x] [* N0050M_Pow](https://leetcode-cn.com/problems/powx-n/) [math, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0050M_Pow.java)
 
 - [ ] []()
       [[solution]]()

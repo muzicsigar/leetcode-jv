@@ -162,37 +162,46 @@
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] [* N0045H_JumpGameII_跳跃游戏II](https://leetcode-cn.com/problems/jump-game-ii/) [array, greedy-method, dp]
+    * [[solution]](https://leetcode-cn.com/problems/jump-game-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/)
+    * [[solution]](https://leetcode-cn.com/problems/jump-game-ii/solution/tan-xin-suan-fa-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0045H_JumpGameII.java)
+    * 是否可以这样想：backtrack理论正确但超时，就用dp；dp理论正确但超时，就用greedy-method
+- [x] [N0046M_Permutations_全排列](https://leetcode-cn.com/problems/permutations/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0046M_Permutations.java)
+- [x] [N0047M_Permutations_II_全排列II](https://leetcode-cn.com/problems/permutations-ii/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0047M_PermutationsII.java)
+    * 重复排列剪枝
+- [x] [N0048M_RotateImage_旋转图像](https://leetcode-cn.com/problems/rotate-image/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/rotate-image/solution/yi-ci-xing-jiao-huan-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0048M_RotateImage.java)
+- [x] [N0049M_GroupAnagrams_字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) [hash, string]
+    * [[solution]](https://leetcode-cn.com/problems/group-anagrams/solution/zi-mu-yi-wei-ci-fen-zu-by-leetcode/)    
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0049_MGroupAnagrams.java)
+- [x] [* N0050M_Pow](https://leetcode-cn.com/problems/powx-n/) [math, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0050M_Pow.java)
+- [x] [* N0051H_NQueens_N皇后](https://leetcode-cn.com/problems/n-queens/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0051H_NQueens.java)
+    * 重点：如何记忆状态，col，主对角线，副对角线
+- [x] [N0052H_NQueensII_N皇后II](https://leetcode-cn.com/problems/n-queens-ii/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/n-queens-ii/solution/nhuang-hou-ii-by-leetcode/)
+    * [[solution]](https://leetcode-cn.com/problems/n-queens-ii/solution/dfs-wei-yun-suan-jian-zhi-by-makeex/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0052H_NQueensII.java)
+- [ ] [* N0053E_MaximumSubarray_最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) [array, divide-and-conquer, dp]
+    * [[solution]](https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0053E_MaxSubArray.java)
+- [x] [N0054M_SpiralMatrix_螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+    * [[solution]](https://leetcode-cn.com/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0054M_SpiralMatrix.java)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [ ] [* N0055M_JumpGame_跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [array, greedy-method, dp]
+    * [[solution]](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0055M_JumpGame.java)
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)

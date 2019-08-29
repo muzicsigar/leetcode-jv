@@ -26,6 +26,21 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0040M_CombinationSumII_组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/) [array, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-3/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0040M_CombinationSumII.java)
+- [x] [N0046M_Permutations_全排列](https://leetcode-cn.com/problems/permutations/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0046M_Permutations.java)
+- [x] [N0047M_Permutations_II_全排列II](https://leetcode-cn.com/problems/permutations-ii/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0047M_PermutationsII.java)
+    * 重点：重复排列剪枝
+- [x] [* N0051H_NQueens_N皇后](https://leetcode-cn.com/problems/n-queens/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0051H_NQueens.java)
+    * 重点：如何记忆状态，col，主对角线，副对角线
+- [x] [N0052H_NQueensII_N皇后II](https://leetcode-cn.com/problems/n-queens-ii/) [backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/n-queens-ii/solution/nhuang-hou-ii-by-leetcode/)
+    * [[solution]](https://leetcode-cn.com/problems/n-queens-ii/solution/dfs-wei-yun-suan-jian-zhi-by-makeex/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0052H_NQueensII.java)
           
 #### 2. Difficulty Top 5
     

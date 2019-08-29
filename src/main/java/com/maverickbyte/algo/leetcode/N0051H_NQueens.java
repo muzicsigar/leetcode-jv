@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class N0051H_NQueens {
 
-  private int matrixSize;
+  private int size;
 
   /*
    * tracking array for columns.
@@ -32,16 +32,16 @@ public class N0051H_NQueens {
    */
   private boolean[] minors;
 
-  private char[] rowQueenTemplate;
+  private char[] template;
 
   public List<List<String>> solveNQueens(int n) {
     if (n < 1) {
       return new ArrayList<>();
     }
 
-    matrixSize = n;
-    rowQueenTemplate = new char[n];
-    Arrays.fill(rowQueenTemplate, '.');
+    size = n;
+    template = new char[n];
+    Arrays.fill(template, '.');
 
     cols = new boolean[n]; // tracking array for columns
     majors = new boolean[2 * n - 1]; // tracking array for major diagonals
@@ -49,6 +49,7 @@ public class N0051H_NQueens {
 
     int[] queens = new int[n];
     Arrays.fill(queens, -1);
+
     List<List<String>> ans = new ArrayList<>();
     backtrack(0, queens, ans);
     return ans;
@@ -56,12 +57,12 @@ public class N0051H_NQueens {
 
 
   private void backtrack(int row, int[] queens, List<List<String>> ans) {
-    if (row == matrixSize) {
-      fillQueens(queens, ans);
+    if (row == size) {
+      addSolution(queens, ans);
       return;
     }
 
-    for (int col = 0; col < matrixSize; col++) {
+    for (int col = 0; col < size; col++) {
       // pruning
       if (notValid(row, col)) {
         continue;
@@ -69,28 +70,28 @@ public class N0051H_NQueens {
 
       queens[row] = col;
       cols[col] = true;
-      majors[row - col + (matrixSize - 1)] = true;
+      majors[row - col + (size - 1)] = true;
       minors[row + col] = true;
 
       backtrack(row + 1, queens, ans);
 
       queens[row] = -1;
       cols[col] = false;
-      majors[row - col + (matrixSize - 1)] = false;
+      majors[row - col + (size - 1)] = false;
       minors[row + col] = false;
     }
   }
 
   private boolean notValid(int row, int col) {
-    return cols[col] || majors[row - col + (matrixSize - 1)] || minors[row + col];
+    return cols[col] || majors[row - col + (size - 1)] || minors[row + col];
   }
 
-  private void fillQueens(int[] queens, List<List<String>> ans) {
+  private void addSolution(int[] queens, List<List<String>> ans) {
     List<String> queenList = new ArrayList<>();
-    for (int i = 0; i < matrixSize; i++) {
-      rowQueenTemplate[queens[i]] = 'Q';
-      queenList.add(new String(rowQueenTemplate));
-      rowQueenTemplate[queens[i]] = '.';
+    for (int i = 0; i < size; i++) {
+      template[queens[i]] = 'Q';
+      queenList.add(new String(template));
+      template[queens[i]] = '.';
     }
     ans.add(queenList);
   }
