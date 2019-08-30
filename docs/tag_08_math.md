@@ -41,6 +41,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[solution]](https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0060M_PermutationSequence.java)
     * 找规律的数学解法：康托展开
+- [x] [N0067E_AddBinary_二进制求和](https://leetcode-cn.com/problems/add-binary/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/add-binary/solution/hua-jie-suan-fa-67-er-jin-zhi-qiu-he-by-guanpengch/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0067E_AddBinary.java)
 
 
 - [ ] []()

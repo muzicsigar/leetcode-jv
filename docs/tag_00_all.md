@@ -234,19 +234,20 @@
     * [[solution]](https://leetcode-cn.com/problems/valid-number/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-1-4/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
     * TODO：有限状态机DFA
+- [x] [N0066E_PlusOne_加一](https://leetcode-cn.com/problems/plus-one/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/plus-one/solution/java-shu-xue-jie-ti-by-yhhzw/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0066E_PlusOne.java)
+- [x] [N0067E_AddBinary_二进制求和](https://leetcode-cn.com/problems/add-binary/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/add-binary/solution/hua-jie-suan-fa-67-er-jin-zhi-qiu-he-by-guanpengch/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0067E_AddBinary.java)
+- [ ] [N0068H_TextJustification_文本左右对齐](https://leetcode-cn.com/problems/text-justification/
+    * [[solution]](https://leetcode-cn.com/problems/text-justification/solution/shun-zhao-si-lu-xiang-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0068H_TextJustification.java)
+    * 没有什么做和学习的价值，以后做
+- [ ] [N0069E_Sqrt_x的平方根]()
+    * [[solution]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
     
-- [ ] [N0066E_PlusOne_加一](https://leetcode-cn.com/problems/plus-one/)
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)

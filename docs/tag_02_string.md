@@ -55,6 +55,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0058E_LengthOfLastWord_最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) [string]
     * [[solution]](https://leetcode-cn.com/problems/length-of-last-word/solution/hua-jie-suan-fa-58-zui-hou-yi-ge-dan-ci-de-chang-d/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0058E_LengthOfLastWord.java)
+- [x] [N0067E_AddBinary_二进制求和](https://leetcode-cn.com/problems/add-binary/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/add-binary/solution/hua-jie-suan-fa-67-er-jin-zhi-qiu-he-by-guanpengch/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0067E_AddBinary.java)
           
           
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)

@@ -70,3 +70,6 @@
 - [x] [N0064M_MinimumPathSum_最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [array, dp]
     * [[solution]](https://leetcode-cn.com/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0064M_MinimumPathSum.java)
+- [x] [N0066E_PlusOne_加一](https://leetcode-cn.com/problems/plus-one/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/plus-one/solution/java-shu-xue-jie-ti-by-yhhzw/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0066E_PlusOne.java)    
