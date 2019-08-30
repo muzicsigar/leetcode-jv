@@ -61,4 +61,12 @@
 - [x] [N0059M_SpiralMatrixII_螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) [array]
     * [[solution]](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0059M_SpiralMatrixII.java)
-    
+- [x] [N0062M_UniquePaths_不同路径](https://leetcode-cn.com/problems/unique-paths/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-by-powcai-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0062M_UniquePaths.java)
+- [x] [N0063M_UniquePathsII_不同路径II](https://leetcode-cn.com/problems/unique-paths-ii/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0063M_UniquePathsII.java) 
+- [x] [N0064M_MinimumPathSum_最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0064M_MinimumPathSum.java)

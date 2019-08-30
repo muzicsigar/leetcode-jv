@@ -41,6 +41,10 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[solution]](https://leetcode-cn.com/problems/n-queens-ii/solution/nhuang-hou-ii-by-leetcode/)
     * [[solution]](https://leetcode-cn.com/problems/n-queens-ii/solution/dfs-wei-yun-suan-jian-zhi-by-makeex/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0052H_NQueensII.java)
+- [x] [* N0060M_X_PermutationSequence_第K个排列](https://leetcode-cn.com/problems/permutation-sequence/) [math, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0060M_PermutationSequence.java)
+    * 找规律的数学解法：康托展开
           
 #### 2. Difficulty Top 5
     

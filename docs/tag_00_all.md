@@ -198,7 +198,6 @@
     * [[solution]](https://leetcode-cn.com/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/) [array]
     * [[solution]](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0054M_SpiralMatrix.java)
-    
 - [ ] [* N0055M_JumpGame_跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [array, greedy-method, dp]
     * [[solution]](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0055M_JumpGame.java)
@@ -214,24 +213,29 @@
 - [x] [N0059M_SpiralMatrixII_螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) [array]
     * [[solution]](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0059M_SpiralMatrixII.java)
-- [ ] [* N0060M_X_PermutationSequence_第K个排列](https://leetcode-cn.com/problems/permutation-sequence/) [math, backtrack]
+- [x] [* N0060M_X_PermutationSequence_第K个排列](https://leetcode-cn.com/problems/permutation-sequence/) [math, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/)
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0060M_PermutationSequence.java)
     * 找规律的数学解法：康托展开
+- [x] [N0061M_RotateList_旋转链表](https://leetcode-cn.com/problems/rotate-list/) [linkedlist, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/)    
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0061M_RotateList.java)
+- [x] [N0062M_UniquePaths_不同路径](https://leetcode-cn.com/problems/unique-paths/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-by-powcai-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0062M_UniquePaths.java)
+- [x] [N0063M_UniquePathsII_不同路径II](https://leetcode-cn.com/problems/unique-paths-ii/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0063M_UniquePathsII.java)
+- [x] [N0064M_MinimumPathSum_最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0064M_MinimumPathSum.java)
+- [ ] [* N0065H_ValidNumber_有效数字](https://leetcode-cn.com/problems/valid-number/) [math, string]
+    * [[solution]](https://leetcode-cn.com/problems/valid-number/solution/biao-qu-dong-fa-by-user8973/)
+    * [[solution]](https://leetcode-cn.com/problems/valid-number/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-1-4/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    * TODO：有限状态机DFA
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
+- [ ] [N0066E_PlusOne_加一](https://leetcode-cn.com/problems/plus-one/)
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()
@@ -321,8 +325,7 @@
 
 
 
-- [x] [N0061M_RotateList_旋转链表](https://leetcode-cn.com/problems/rotate-list/)
-      [[solution]](https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/)
+
 - [ ] [N0083E_RemoveDuplicatesFromSortedList_删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
       [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-s/)
       [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/di-gui-yu-fei-di-gui-by-powcai/)

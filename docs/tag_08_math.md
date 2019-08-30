@@ -37,9 +37,12 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0050M_Pow](https://leetcode-cn.com/problems/powx-n/) [math, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0050M_Pow.java)
+- [x] [* N0060M_X_PermutationSequence_第K个排列](https://leetcode-cn.com/problems/permutation-sequence/) [math, backtrack]
+    * [[solution]](https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0060M_PermutationSequence.java)
+    * 找规律的数学解法：康托展开
 
-- [ ] []()
-      [[solution]]()
+
 - [ ] []()
       [[solution]]()
 - [ ] []()

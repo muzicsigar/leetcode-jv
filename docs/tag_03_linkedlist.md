@@ -45,6 +45,12 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[solution]](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0024M_SwapNodesInPairs.java)
     * 迭代和递归两种方法都练习下。
+- [x] [N0061M_RotateList_旋转链表](https://leetcode-cn.com/problems/rotate-list/) [linkedlist, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/)    
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0061M_RotateList.java)
+    
+    
+    
     
     
     

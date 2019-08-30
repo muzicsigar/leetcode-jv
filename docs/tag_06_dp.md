@@ -39,6 +39,15 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [ ] [* N0055M_JumpGame_跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [array, greedy-method, dp]
     * [[solution]](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0055M_JumpGame.java)
+- [x] [N0062M_UniquePaths_不同路径](https://leetcode-cn.com/problems/unique-paths/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-by-powcai-2/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0062M_UniquePaths.java)
+- [x] [N0063M_UniquePathsII_不同路径II](https://leetcode-cn.com/problems/unique-paths-ii/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0063M_UniquePathsII.java)
+- [x] [N0064M_MinimumPathSum_最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [array, dp]
+    * [[solution]](https://leetcode-cn.com/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0064M_MinimumPathSum.java)
     
 * [ ] [N1025E_DivisorGame_除数博弈](https://leetcode-cn.com/problems/divisor-game/)
       [[solution]]()

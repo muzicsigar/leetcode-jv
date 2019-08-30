@@ -8,32 +8,26 @@ import com.maverickbyte.algo.leetcode.util.ListNode;
  */
 public class N0061M_RotateList {
   public ListNode rotateRight(ListNode head, int k) {
-    if (null == head || head.next == null || k < 1) {
+    if (null == head || head.next == null) {
       return head;
     }
-    // 获取链表长度，变成环形链表，pre指到head
-    int len = 1;
-    ListNode pre = head;
-    while (head.next != null) {
-      len++;
-      head = head.next;
+
+    int mod = 1;
+    ListNode cur = head;
+    while (cur.next != null) {
+      cur = cur.next;
+      mod++;
     }
-    int m = k % len;
-    if(m == 0) { // 短路特殊情况，这一步其实可以不要
-      return pre;
-    }
-    head.next = pre;
-    /*  m
-        1  -> 3 1 2  pre -> 1 移动到3之之前 pre -> 2: 需要移动 len - 1 - m = 3 - 1 - 1 = 1 次
-        2  -> 2 1 3  pre -> 1 移动到2之之前 pre -> 1: 需要移动 len - 1 - m = 3 - 1 - 2 = 0 次
-        */
-    int cnt = len - 1 - m;
-    while (cnt > 0) {
-      pre = pre.next;
+    cur.next = head;
+
+    ListNode tail = cur;
+    int cnt = mod - k % mod;
+    while (cnt > 0 ) {
+      tail = tail.next;
       cnt--;
     }
-    head = pre.next;
-    pre.next = null;
+    head= tail.next;
+    tail.next = null;
     return head;
   }
 
