@@ -1,4 +1,4 @@
-package com.maverickbyte.algo.leetcode.contest.wc151;
+package com.maverickbyte.algo.leetcode.contest.wc0151;
 
 import java.util.ArrayList;
 import java.util.List;

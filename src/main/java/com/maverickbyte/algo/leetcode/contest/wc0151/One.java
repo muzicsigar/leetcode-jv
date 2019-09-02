@@ -1,4 +1,4 @@
-package com.maverickbyte.algo.leetcode.contest.wc151;
+package com.maverickbyte.algo.leetcode.contest.wc0151;
 
 /**
  * @author Alan Li

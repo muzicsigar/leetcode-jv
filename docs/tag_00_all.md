@@ -248,10 +248,10 @@
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
+- [x] [N0070E_ClimbingStairs_爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) [dp]
+    * [[solution]](https://leetcode-cn.com/problems/climbing-stairs/solution/pa-lou-ti-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0070E_ClimbingStairs.java)
+- [ ] [N0071M_SimplifyPath_简化路径](https://leetcode-cn.com/problems/simplify-path/)
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
 - [ ] []()

@@ -8,7 +8,6 @@ public class N0069E_Sqrt {
 
   public int mySqrt(int x) {
 
-
     return 0;
   }
 }
