@@ -5,7 +5,6 @@
     * 熟练掌握递归的思想
     * stack，queue，deque的应用(控制元素顺序)。
 
-#### 1. Terms
 
 
 
@@ -14,7 +13,6 @@
 
 #### 1. To Be Sorted
 - [x] **C** [N0094M_BinaryTreeInorderTraversal_二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-    * [[readme]](https://)
     * [[solution]](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/er-cha-shu-de-zhong-xu-bian-li-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0094M_BinaryTreeInorderTraversal.java)
     * recursion, iteration with stack, morris
@@ -83,7 +81,6 @@
 - [x] **C** [N0199M_BinaryTreeRightSideView_二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
       [[solution]](https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/liang-chong-jie-ti-fang-fa-di-gui-ji-bai-100he-fei/)
           
-#### 2. Difficulty Top 5
     
 #### 3. Classical
 
@@ -132,4 +129,3 @@
 - [N0108E_ConvertSortedArrayToBinarySearchTree_将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [N0109M_ConvertSortedListToBinarySearchTree_有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
     
-#### 4. Frequency Top 10 && Before 300 

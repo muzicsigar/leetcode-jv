@@ -51,6 +51,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0070E_ClimbingStairs_爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) [dp]
     * [[solution]](https://leetcode-cn.com/problems/climbing-stairs/solution/pa-lou-ti-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0070E_ClimbingStairs.java)
+- [x] [* N0072H_EditDistance_编辑距离](https://leetcode-cn.com/problems/edit-distance/) [string, dp]
+    * [[solution]](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0072H_EditDistance.java)
     
 * [ ] [N1025E_DivisorGame_除数博弈](https://leetcode-cn.com/problems/divisor-game/)
       [[solution]]()

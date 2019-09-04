@@ -17,10 +17,3 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * 是N0021E合并2个有序链表的升级版
     * 这个题的多种解法不错：优先队列优化，分治归并
           
-#### 2. Difficulty Top 5
-    
-#### 3. Classical
-
-##### 1) 典型问题一
-    
-#### 4. Frequency Top 10 && Before 300 

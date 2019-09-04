@@ -39,10 +39,3 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0061M_RotateList.java)
     
           
-#### 2. Difficulty Top 5
-    
-#### 3. Classical
-
-##### 1) 典型问题一
-    
-#### 4. Frequency Top 10 && Before 300 

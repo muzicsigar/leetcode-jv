@@ -1,18 +1,22 @@
 
-### Knowledge Prerequisites 
+# Knowledge Prerequisites 
 
 - 如何取中点， 奇数中点， 偶数中点
+- 字符串模式匹配
+    * TODO: 查看String.indexOf的暴力破解法
+    * TODO: KMP algorithm
+    * TODO: BM algorithm
+    * TODO: Sunday algorithm
+    * TODO：Trie + KMP => AC状态机
 
-#### 1. Terms
 
 
 
 ----------------------------------------------------------------------------------------------------
-### II. Quiz Pool
+# II. Quiz Pool
 
-https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 
-#### 1. To Be Sorted
+## 1. To Be Sorted
 - [x] [* N0003M_LongestSubstringWithoutRepeatingCharacters_无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [hash, double-pointer, string, sliding-window]
       [[solution]](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetcod/) 
       [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0003M_LengthOfLongestSubstring.java)
@@ -41,6 +45,13 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0022M_GenerateParentheses_括号生成](https://leetcode-cn.com/problems/generate-parentheses/) [string, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0022M_GenerateParentheses.java)
+- [ ] [** N0028E_ImplementStrStr_实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) [string, double-pointer]
+    * [[solution]](https://leetcode-cn.com/problems/implement-strstr/solution/c5chong-jie-fa-ku-han-shu-bfkmpbmsunday-by-2227/)
+    * TODO: 查看String.indexOf的暴力破解法
+    * TODO: KMP algorithm
+    * TODO: BM algorithm
+    * TODO: Sunday algorithm
+    * TODO：Trie + KMP => AC状态机
 - [x] [** N0032H_LongestValidParentheses_最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) [string, stack, dp]
     * [[solution]](https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
@@ -58,6 +69,12 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0067E_AddBinary_二进制求和](https://leetcode-cn.com/problems/add-binary/) [math, string]
     * [[solution]](https://leetcode-cn.com/problems/add-binary/solution/hua-jie-suan-fa-67-er-jin-zhi-qiu-he-by-guanpengch/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0067E_AddBinary.java)
+- [x] [N0071M_SimplifyPath_简化路径](https://leetcode-cn.com/problems/simplify-path/) [string, stack]
+    * [[solution]](https://leetcode-cn.com/problems/simplify-path/solution/java-yi-dong-yi-jie-xiao-lu-gao-by-spirit-9-18/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0071M_SimplifyPath.java)
+- [x] [* N0072H_EditDistance_编辑距离](https://leetcode-cn.com/problems/edit-distance/) [string, dp]
+    * [[solution]](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0072H_EditDistance.java)
           
           
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
@@ -154,12 +171,9 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
             
   
       
-#### 2. Difficulty Top 5
+d
     
 #### 3. Classical
 
 ##### 回文串
 ##### 最长子串  
-
-    
-#### 4. Frequency Top 10 && Before 300 

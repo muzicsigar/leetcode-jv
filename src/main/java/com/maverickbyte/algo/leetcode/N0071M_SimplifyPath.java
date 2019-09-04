@@ -7,8 +7,31 @@ import java.util.LinkedList;
  * @since 1.0
  */
 public class N0071M_SimplifyPath {
+  public String simplifyPath(String path) {
+    LinkedList<String> deque = new LinkedList<>();
+    String[] tokens = path.split("/");
+    for (String token : tokens) {
+      if (token.isEmpty() || token.equals(".")) {
+        continue;
+      }
+      if (token.equals("..")) {
+        if (!deque.isEmpty()) {
+          deque.pop();
+        }
+        continue;
+      }
+      deque.push(token);
+    }
+    if (deque.isEmpty()) {
+      return "/";
+    }
+    StringBuilder sb = new StringBuilder();
+    while (!deque.isEmpty()) {
+      sb.append("/").append(deque.pollLast());
+    }
+    return sb.toString();
+  }
 
-  // 采用这个
   public String simplifyPath1(String path) {
     if (null == path || path.length() == 0) {
       return null;
@@ -62,15 +85,15 @@ public class N0071M_SimplifyPath {
     int startSlash = 0;
     LinkedList<String> tokens = new LinkedList<>();
     int i = 0;
-    while( i < path.length()) {
+    while (i < path.length()) {
       if (path.charAt(i) == '/' && startSlash != i) {
         String token = path.substring(startSlash, i).substring(1);
         // add
-        if(!token.equals("..") && !token.equals("") && !token.equals(".")){
+        if (!token.equals("..") && !token.equals("") && !token.equals(".")) {
           tokens.addLast(token);
         }
         // or delete
-        if(token.equals("..") && tokens.size() > 0) {
+        if (token.equals("..") && tokens.size() > 0) {
           tokens.pollLast();
         }
         // or drop
@@ -81,11 +104,11 @@ public class N0071M_SimplifyPath {
     if (startSlash + 1 != i) {
       String token = path.substring(startSlash, i).substring(1);
       // add
-      if(!token.equals("..") && !token.equals("") && !token.equals(".")){
+      if (!token.equals("..") && !token.equals("") && !token.equals(".")) {
         tokens.addLast(token);
       }
       // or delete
-      if(token.equals("..") && tokens.size() > 0) {
+      if (token.equals("..") && tokens.size() > 0) {
         tokens.pollLast();
       }
       // or drop

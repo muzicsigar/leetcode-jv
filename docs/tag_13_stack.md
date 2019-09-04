@@ -19,11 +19,7 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0032H_LongestValidParentheses.java)
     * 多种解法: brutal-force, dp, stack, left&right
     * 暴力解法包含括号验证的子问题    
+- [x] [N0071M_SimplifyPath_简化路径](https://leetcode-cn.com/problems/simplify-path/) [string, stack]
+    * [[solution]](https://leetcode-cn.com/problems/simplify-path/solution/java-yi-dong-yi-jie-xiao-lu-gao-by-spirit-9-18/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0071M_SimplifyPath.java)
           
-#### 2. Difficulty Top 5
-    
-#### 3. Classical
-
-##### 1) 典型问题一
-    
-#### 4. Frequency Top 10 && Before 300 
