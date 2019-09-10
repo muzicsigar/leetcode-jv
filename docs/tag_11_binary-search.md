@@ -29,4 +29,7 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [* N0050M_Pow](https://leetcode-cn.com/problems/powx-n/) [math, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0050M_Pow.java)
-          
+- [x] [N0074M_SearchA2DMatrix_搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/ologmn-ologm-logn-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0074M_SearchA2DMatrix.java)
+    * 注意一维坐标转成二维坐标的的方式 

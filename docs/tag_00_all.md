@@ -255,16 +255,17 @@
 - [x] [* N0072H_EditDistance_编辑距离](https://leetcode-cn.com/problems/edit-distance/) [string, dp]
     * [[solution]](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0072H_EditDistance.java)
+- [x] [N0073M_SetMatrixZeroes_矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/set-matrix-zeroes/solution/o1kong-jian-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0073M_SetMatrixZeroes.java)
     
     
     
     
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+- [x] [N0074M_SearchA2DMatrix_搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/ologmn-ologm-logn-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0074M_SearchA2DMatrix.java)
+    * 注意一维坐标转成二维坐标的的方式
 - [ ] []()
     * [[solution]]()
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)

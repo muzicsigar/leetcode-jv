@@ -73,3 +73,10 @@
 - [x] [N0066E_PlusOne_加一](https://leetcode-cn.com/problems/plus-one/) [array]
     * [[solution]](https://leetcode-cn.com/problems/plus-one/solution/java-shu-xue-jie-ti-by-yhhzw/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0066E_PlusOne.java)    
+- [x] [N0073M_SetMatrixZeroes_矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) [array]
+    * [[solution]](https://leetcode-cn.com/problems/set-matrix-zeroes/solution/o1kong-jian-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0073M_SetMatrixZeroes.java)
+- [x] [N0074M_SearchA2DMatrix_搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) [array, binary-search]
+    * [[solution]](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/ologmn-ologm-logn-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0074M_SearchA2DMatrix.java)
+    * 注意一维坐标转成二维坐标的的方式
