@@ -4,18 +4,62 @@
 - 计算 mid 时需要技巧防止溢出，即 mid=left+(right-left)/2; 而 mid = (left + right)/2会存在溢出；
 - padding '#' 倍增索引 #0#1#2#3 和 0#1#2#3
 - 割(cut), 中位数(lMid, rMid)
-    
-    
-- 二分查找模板
-    * 自己希望用什么区间？`[left, right]` or `[left, right)`
-    * 终止条件？是否漏了元素？ `while(left <= right)` or `while(left < right)`
-    * return 还是 移动？ `if(target = nums[mid])` return or  move ?
-    * 杜绝死循环： 只能 left == mid + 1; right = mid - 1;   
+- 二维数组 `A(m行，n列)`元素的 一维坐标 `A(i)` 和二维坐标 `A(x, y)`的转化
+    * `A[i] = A[i / n][i % n] (0 <= i <= m * n - 1)`    
+
+#### 通用二分查找模板
+
+- 自己希望用什么区间？`[left, right]` or `[left, right)`
+- 终止条件？是否漏了元素？ `while(left <= right)` or `while(left < right)`
+- return 还是 移动？ `if(target = nums[mid])` return or  move ?
 - Ref: https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
 - Ref: https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/
 
-- 二维数组 `A(m行，n列)`元素的 一维坐标 `A(i)` 和二维坐标 `A(x, y)`的转化
-    * `A[i] = A[i / n][i % n] (0 <= i <= m * n - 1)`    
+
+
+
+- 杜绝死循环： 只能 left == mid + 1; right = mid - 1;   
+- 固定终止状态: left = right + 1 && (最大左边界 or 最小右边界)
+- 根据终止状态获取要求的结果
+
+```java
+class BinarySearchTemplate {
+    
+  // caution: return value is -1
+    public int maxLeftBorder(int[] nums, int target) {
+      int left = 0;
+      int right = nums.length - 1;
+      while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (target < nums[mid]) {
+          right = mid - 1;
+        } else if (target > nums[mid]) {
+          left = mid + 1;
+        } else {
+          right = mid - 1;
+        }
+      }
+      return right;
+    }
+  
+    // caution: return value is nums.length
+    public int minRightBorder(int[] nums, int target) {
+      int left = 0;
+      int right = nums.length - 1;
+      while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (target < nums[mid]) {
+          right = mid - 1;
+        } else if (target > nums[mid]) {
+          left = mid + 1;
+        } else {
+          left = mid + 1;
+        }
+      }
+      return left;
+    }
+}
+```
 
 ----------------------------------------------------------------------------------------------------
 ### II. Quiz Pool

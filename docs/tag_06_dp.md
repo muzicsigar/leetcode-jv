@@ -3,6 +3,9 @@
 DP其实就是一种表格法
 大多数递归都可以用动态规划的思想重写
 
+#### Refs
+- [博弈问题dp通用思路](https://leetcode-cn.com/problems/stone-game/solution/jie-jue-bo-yi-wen-ti-de-dong-tai-gui-hua-tong-yong/)
+
 #### 1. Terms
 - 记忆化回溯
 - 
