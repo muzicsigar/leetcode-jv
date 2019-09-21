@@ -1,6 +1,9 @@
 package com.maverickbyte.algo.leetcode;
 
+import com.maverickbyte.algo.leetcode.util.PrintUtil;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -57,24 +60,24 @@ public class N0022M_GenerateParentheses {
       best solution:
      ============================================================================================= */
   public List<String> generateParenthesis2(int n) {
-    char[]  pre = new char[n * 2];
+    char[] pre = new char[n * 2];
     List<String> ans = new ArrayList<>();
     backtrack(0, 0, n, 0, pre, ans);
     return ans;
   }
 
   private void backtrack(int left, int right, int max, int depth, char[] pre, List<String> ans) {
-    if(depth == 2 * max) {
+    if (depth == 2 * max) {
       ans.add(new String(pre));
       return;
     }
-    if(left < max) {
+    if (left < max) {
       pre[depth] = '(';
       backtrack(left + 1, right, max, depth + 1, pre, ans);
     }
-    if(right < left) {
+    if (right < left) {
       pre[depth] = ')';
-      backtrack(left, right +1, max, depth + 1, pre, ans);
+      backtrack(left, right + 1, max, depth + 1, pre, ans);
     }
   }
 

@@ -26,6 +26,7 @@ public final class PrintUtil {
     for (int[] r : square) {
       System.out.println(Arrays.toString(r));
     }
+    System.out.println();
   }
 
   public static void main(String[] args) {

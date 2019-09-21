@@ -180,4 +180,61 @@ public class N0037H_SudokuSolver {
     backtrack(0, 0);
   }
 
+
+
+
+//  public void solveSudoku(char[][] board) {
+//    rows = new boolean[9][10];
+//    cols = new boolean[9][10];
+//    cube = new boolean[9][10];
+//    for (int i = 0; i < 81; i++) {
+//      int row = i / 9;
+//      int col = i % 9;
+//      char num = board[row][col];
+//      if (num != '.') {
+//        rows[row][num - '0'] = true;
+//        cols[col][num - '0'] = true;
+//        cube[row / 3 * 3 + col / 3][num - '0'] = true;
+//      }
+//    }
+//    backtrack(0, board);
+//  }
+//
+//  private boolean[][] rows;
+//  private boolean[][] cols;
+//  private boolean[][] cube;
+//  private boolean resolved;
+//
+//  private void backtrack(int n, char[][] board) {
+//    if (resolved || n == 81) {
+//      resolved = true;
+//      return;
+//    }
+//
+//    int row = n / 9;
+//    int col = n % 9;
+//
+//    if (board[row][col] == '.') {
+//      for (int i = 1; i <= 9; i++) {
+//        if (rows[row][i] || cols[col][i] || cube[row / 3 * 3 + col / 3][i]) {
+//          continue;
+//        }
+//        rows[row][i] = true;
+//        cols[col][i] = true;
+//        cube[row / 3 * 3 + col / 3][i] = true;
+//        board[row][col] = (char) (i + '0');
+//
+//        backtrack(n + 1, board);
+//
+//        if(!resolved) {
+//          rows[row][i] = false;
+//          cols[col][i] = false;
+//          cube[row / 3 * 3 + col / 3][i] = false;
+//          board[row][col] = '.';
+//        }
+//      }
+//    } else {
+//      backtrack(n + 1, board);
+//    }
+//  }
 }

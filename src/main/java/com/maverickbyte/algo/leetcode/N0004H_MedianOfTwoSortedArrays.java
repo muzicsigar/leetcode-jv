@@ -55,24 +55,23 @@ public class N0004H_MedianOfTwoSortedArrays {
     }
     int len1 = nums1.length;
     int len2 = nums2.length;
-    int lMax1 = 0, rMin1 = 0, c1, lMax2 = 0, rMin2 = 0, c2, high = 2 * len1, low = 0;
+    int lMid1 = 0, rMid1 = 0, cut1, lMid2 = 0, rMid2 = 0, cut2, high = 2 * len1, low = 0;
     while (low <= high) {
-      c1 = (low + high) / 2;
-      c2 = len1 + len2 - c1;
-      lMax1 = c1 == 0 ? Integer.MIN_VALUE : nums1[(c1 - 1) / 2];
-      rMin1 = c1 == 2 * len1 ? Integer.MAX_VALUE : nums1[c1 / 2];
-      lMax2 = c2 == 0 ? Integer.MIN_VALUE : nums2[(c2 - 1) / 2];
-      rMin2 = c2 == 2 * len2 ? Integer.MAX_VALUE : nums2[c2 / 2];
-      if (lMax1 > rMin2) {
-        high = c1 - 1;
-      } else if (lMax2 > rMin1) {
-        low = c1 + 1;
+      cut1 = (low + high) / 2;
+      cut2 = len1 + len2 - cut1;
+      lMid1 = cut1 == 0 ? Integer.MIN_VALUE : nums1[(cut1 - 1) / 2];
+      rMid1 = cut1 == 2 * len1 ? Integer.MAX_VALUE : nums1[cut1 / 2];
+      lMid2 = cut2 == 0 ? Integer.MIN_VALUE : nums2[(cut2 - 1) / 2];
+      rMid2 = cut2 == 2 * len2 ? Integer.MAX_VALUE : nums2[cut2 / 2];
+      if (lMid1 > rMid2) {
+        high = cut1 - 1;
+      } else if (lMid2 > rMid1) {
+        low = cut1 + 1;
       } else {
         break;
       }
     }
-    System.out.println(String.format("%s, %s, %s, %s", lMax1, rMin1, lMax2, rMin2));
-    return (Math.max(lMax1, lMax2) + Math.min(rMin1, rMin2)) / 2.0;
+    return (Math.max(lMid1, lMid2) + Math.min(rMid1, rMid2)) / 2.0;
   }
 
   //

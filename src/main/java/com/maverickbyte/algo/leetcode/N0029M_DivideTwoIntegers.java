@@ -6,6 +6,9 @@ package com.maverickbyte.algo.leetcode;
  */
 public class N0029M_DivideTwoIntegers {
 
+  /* =============================================================================================
+      特殊情况：-INF / 1, abs(x) > INF ???
+     ============================================================================================= */
   public int divide(int dividend, int divisor) {
     if (dividend == Integer.MIN_VALUE) {
       if (divisor == 1) {

@@ -139,6 +139,7 @@
 - [x] [* N0037H_SudokuSolver_解数独](https://leetcode-cn.com/problems/sudoku-solver/) [hash, backtrack]
     * [[solution]](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-leetcode/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0037H_SudokuSolver.java)
+    * 注意 二维坐标 和 一维坐标 的转换
 - [x] [N0038E_CountAndSay_报数](https://leetcode-cn.com/problems/count-and-say/) [string]
     * [[solution]](https://leetcode-cn.com/problems/count-and-say/solution/38-bao-shu-java-xun-huan-by-pphdsny/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0038E_CountAndSay.java)

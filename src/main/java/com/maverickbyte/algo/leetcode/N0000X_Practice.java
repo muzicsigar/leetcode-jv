@@ -7,23 +7,19 @@ package com.maverickbyte.algo.leetcode;
 public class N0000X_Practice {
 
 
-  /* =============================================================================================
-      comment
-      "abc" -> "bd"
-      when equal ,
-      when "ab" & "b", insert d
-      when "ab" & "bd", delete c
-      when "ab" & "bc",
-      dp(i, j)
-      when w1[i] = w2[j], dp(i, j) = dp(i- 1, j - 1)
-      when w1[i] != w2[j] && dp(i - 1, j
-     ============================================================================================= */
-  public int minDistance(String word1, String word2) {
-
-
-    return 0;
+  public int searchInsert(int[] nums, int target) {
+    int left = 0;
+    int right = nums.length - 1;
+    while (left <= right) {
+      int mid = (left + right) / 2;
+      if (target < nums[mid]) {
+        right = mid - 1;
+      } else {
+        left = mid + 1;
+      }
+    }
+    return left == 0 ? 0 : nums[left - 1] == target ? left - 1 : left;
   }
-
 }
 
 
