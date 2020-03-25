@@ -33,21 +33,22 @@ public class N0019M_RemoveNthNodeFromEndOfList {
   /* =============================================================================================
       solution 2: two-pointers
      ============================================================================================= */
-  public ListNode removeNthFromEnd2(ListNode head, int n) {
-      ListNode dummy = new ListNode(0);
-      dummy.next = head;
-      ListNode end = dummy;
-      ListNode start = dummy;
-      while (n >= 0) {
-        end = end.next;
-        n--;
-      }
-      while (end != null) {
-        start = start.next;
-        end = end.next;
-      }
-      start.next = start.next.next;
-      return dummy.next;
+  public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode dummy = new ListNode(0);
+    dummy.next = head;
+    ListNode pre = dummy;
+    ListNode end = dummy;
+    while (n > 0) {
+      end = end.next;
+      n--;
+    }
+    while (end.next != null) {
+      pre = pre.next;
+      end = end.next;
+    }
+    ListNode temp = pre.next;
+    pre.next = pre.next.next;
+    temp.next = null; // gc
+    return dummy.next;
   }
-
 }

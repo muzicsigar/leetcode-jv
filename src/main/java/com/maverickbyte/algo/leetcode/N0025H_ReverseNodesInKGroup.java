@@ -11,63 +11,6 @@ import java.util.LinkedList;
 public class N0025H_ReverseNodesInKGroup {
 
 
-  // pointers
-
-  // stack + queue iterative
-
-  // stack recursive
-
-
-
-  /* =============================================================================================
-      solution 1：硬做， 不建议这么做
-     ============================================================================================= */
-  public ListNode reverseKGroup1(ListNode head, int k) {
-    if (head == null || k < 2) {
-      return head;
-    }
-
-    ListNode[] group = new ListNode[k];
-
-    int cnt = 0;
-    ListNode todo = null;
-    while (cnt < k && head != null) {
-      group[cnt++] = head;
-      head = head.next;
-    }
-    if (cnt < k) {
-      return group[0];
-    }
-    for (int i = k - 1; i > 0; i--) {
-      group[i].next = group[i - 1];
-    }
-    group[0].next = null;
-    todo = group[0];
-    ListNode ans = group[k - 1];
-
-    while (true) {
-      cnt = 0;
-      while (cnt < k && head != null) {
-        group[cnt++] = head;
-        head = head.next;
-      }
-      if (cnt == 0) {
-        return ans;
-      }
-      if (cnt < k) {
-        todo.next = group[0];
-        return ans;
-      }
-      for (int i = k - 1; i > 0; i--) {
-        group[i].next = group[i - 1];
-      }
-      todo.next = group[k - 1];
-      group[0].next = null;
-      todo = group[0];
-    }
-  }
-
-
   /* =============================================================================================
       solution 2: 用现成的deque优化了solution 1
       练习这个写法

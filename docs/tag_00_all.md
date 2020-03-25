@@ -259,62 +259,50 @@
 - [x] [N0073M_SetMatrixZeroes_矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) [array]
     * [[solution]](https://leetcode-cn.com/problems/set-matrix-zeroes/solution/o1kong-jian-by-powcai/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0073M_SetMatrixZeroes.java)
-    
-    
-    
-    
 - [x] [N0074M_SearchA2DMatrix_搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) [array, binary-search]
     * [[solution]](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/ologmn-ologm-logn-by-powcai/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0074M_SearchA2DMatrix.java)
     * 注意一维坐标转成二维坐标的的方式
 - [ ] []()
     * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N) 
 - [ ] []()
     * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
-- [ ] []()
-    * [[solution]]()
-    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N) 
 - [ ] [* N0300M_LongestIncreasingSubsequence_最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) [dp, binary-search, greedy-method] 
     * [[solution]](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/dong-tai-gui-hua-er-fen-cha-zhao-tan-xin-suan-fa-p/)
     * [[solution]](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-e/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0300M_LongestIncreasingSubsequence.java)
-    * TODO
+    * TODO 
     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - [ ] [159. Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
       [[solution]]()
