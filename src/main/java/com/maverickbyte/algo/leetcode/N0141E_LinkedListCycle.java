@@ -50,8 +50,4 @@ public class N0141E_LinkedListCycle {
     return false;
   }
 
-  public boolean hasCycle(ListNode head) {
-    // practice here
-    return false;
-  }
 }

@@ -12,11 +12,10 @@ public class N0025H_ReverseNodesInKGroup {
 
 
   /* =============================================================================================
-      solution 2: 用现成的deque优化了solution 1
-      练习这个写法
+      solution 1: stack
      ============================================================================================= */
-  public ListNode reverseKGroup2(ListNode head, int k) {
-    if(null == head || k < 2) {
+  public ListNode reverseKGroup(ListNode head, int k) {
+    if (null == head || k < 2) {
       return head;
     }
     LinkedList<ListNode> deque = new LinkedList<>();
@@ -43,27 +42,9 @@ public class N0025H_ReverseNodesInKGroup {
 
 
   /* =============================================================================================
-      solution 3: 尾插法
-      pre
-      tail    head
-      dummy    1     2     3     4     5
-
-      # 我们用tail 移到要翻转的部分最后一个元素
-      pre     head       tail
-      dummy    1     2     3     4     5
-               cur
-
-      # 我们尾插法的意思就是,依次把cur移到tail后面
-      pre          tail  head
-      dummy    2     3    1     4     5
-               cur
-
-      # 依次类推
-      pre     tail      head
-      dummy    3     2    1     4     5
-		  cur
+      solution 2: tail-insertion
      ============================================================================================= */
-  public ListNode reverseKGroup3(ListNode head, int k) {
+  public ListNode reverseKGroup2(ListNode head, int k) {
     ListNode dummy = new ListNode(0);
     dummy.next = head;
     ListNode pre = dummy;
@@ -74,27 +55,45 @@ public class N0025H_ReverseNodesInKGroup {
         count++;
         tail = tail.next;
       }
-      if (tail == null) break;
-      ListNode head1 = pre.next;
+      if (tail == null) {
+        break;
+      }
+      ListNode nextPre = pre.next;
       while (pre.next != tail) {
         ListNode cur = pre.next;
         pre.next = cur.next;
         cur.next = tail.next;
         tail.next = cur;
       }
-      pre = head1;
-      tail = head1;
+      pre = nextPre;
+      tail = nextPre;
     }
     return dummy.next;
   }
 
   /* =============================================================================================
-      solution 4: 递归
+      solution 3: recursion
      ============================================================================================= */
-  public ListNode reverseKGroup4(ListNode head, int k) {
-    return null;
+  public ListNode reverseKGroup3(ListNode head, int k) {
+    ListNode cur = head;
+    int count = 0;
+    while (cur != null && count != k) {
+      cur = cur.next;
+      count++;
+    }
+    if (count == k) {
+      cur = reverseKGroup3(cur, k);
+      while (count != 0) {
+        ListNode tmp = head.next;
+        head.next = cur;
+        cur = head;
+        head = tmp;
+        count--;
+      }
+      head = cur; //WARN: don't skip this!
+    }
+    return head;
   }
-
 
 
 }

@@ -12,7 +12,8 @@
 - 快慢指针：可以不知道length就能取中点x
 - 题目未限制更改node的值，就可以交换节点之间的值
 - 递归的使用，优先队列的使用
-- 尾插法
+- 尾插法(tail-insertion)
+- 头插法(head-insertion) : N0092M
 
 
 #### 1. Terms
@@ -26,8 +27,8 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 
 #### 1. To Be Sorted
 - [x] [N0002M_AddTwoNumbers_两数相加](https://leetcode-cn.com/problems/add-two-numbers/) [linkedlist, math]
-      [[solution]](https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-leetcode/)
-      [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0002M_AddTwoNumbers.java)
+    * [[solution]](https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0002M_AddTwoNumbers.java)
 - [x] [* N0019M_RemoveNthNodeFromEndOfList_删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) [linkedlist, double-pointer]
     * [[solution]](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0019M_RemoveNthNodeFromEndOfList.java)
@@ -41,45 +42,48 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
     * [[solution]](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/leetcode-23-he-bing-kge-pai-xu-lian-biao-by-powcai/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0023H_MergeKSortedLists.java)
     * 是N0021E合并2个有序链表的升级版
-    * solution: using priority queue
-    * solution: divide-and-conquer & recursive
+    * hint: using priority queue
+    * hint: divide-and-conquer & recursive
 - [x] [* N0024M_SwapNodesInPairs_两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) [linkedlist]
     * [[solution]](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/)
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0024M_SwapNodesInPairs.java)
-    * solution: normal 
-    * solution: recursive
-- [ ] [** N0025H_ReverseNodesInKGroup_K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
-      [[solution]](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/kge-yi-zu-fan-zhuan-lian-biao-by-powcai/)
-    * solution：stack
-    * solution: tail-insertion (尾插法) 
-    * solution: recursive (递归法)
+    * hint: recursion
+- [x] [** N0025H_ReverseNodesInKGroup_K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) [linkedlist]
+    * [[solution]](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/kge-yi-zu-fan-zhuan-lian-biao-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0025H_ReverseNodesInKGroup.java)
+    * hint: stack 
+    * hint: tail-insertion (尾插法) 
+    * hint: recursion (递归法)
 - [x] [N0061M_RotateList_旋转链表](https://leetcode-cn.com/problems/rotate-list/) [linkedlist, double-pointer]
     * [[solution]](https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/)    
     * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0061M_RotateList.java)
-    
-- [x] [N0061M_RotateList_旋转链表](https://leetcode-cn.com/problems/rotate-list/)
-      [[solution]](https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/)
-- [ ] [N0082M_RemoveDuplicatesFromSortedListII_删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
-      [[solution]]()
-    * TODO recursive version: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/
-- [ ] [N0083E_RemoveDuplicatesFromSortedList_删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
-      [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-s/)
-      [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/di-gui-yu-fei-di-gui-by-powcai/)
-    * TODO recursive version：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/di-gui-yu-fei-di-gui-by-powcai/
-- [ ] [N0086M_PartitionList_分隔链表](https://leetcode-cn.com/problems/partition-list/)
-      [[solution]]()
-- [ ] [N0092M_ReverseLinkedListII_反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
-      [[solution]](https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/liang-chong-fang-fa-by-powcai/)
+- [x] [* N0082M_RemoveDuplicatesFromSortedListII_删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) [linkedlist]
+    * [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/)
+    * [[solution - recursion]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/zui-zui-zui-rong-yi-li-jie-he-jie-ti-de-si-lu-yin-/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0082M_RemoveDuplicatesFromSortedListII.java)
+    * 2nd solution hint: recursion
+- [x] [N0083E_RemoveDuplicatesFromSortedList_删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) [linkedlist]
+    * [[solution]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-s/)
+    * [[solution - recursion]](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/di-gui-yu-fei-di-gui-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0083E_RemoveDuplicatesFromSortedList.java)
+    * 2nd solution hint: recursion
+- [x] [N0086M_PartitionList_分隔链表](https://leetcode-cn.com/problems/partition-list/) [linkedlist]
+    * [[solution: no need]]()
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0086M_PartitionList.java)
+- [x] [N0092M_ReverseLinkedListII_反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+    * [[solution]](https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/liang-chong-fang-fa-by-powcai/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0092M_ReverseLinkedListII.java)
+    * head-insertion（头插法）
 - [ ] [N0109M_ConvertSortedListToBinarySearchTree_有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
-      [[solution]]()
-- [x] [N0206E_ReverseLinkedList_反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
-      [[solution]](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode/)      
-- [x] [N0138M_CopyListWithRandomPointer_复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/)
+      [[solution]](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/)
+- [ ] [** N0138M_CopyListWithRandomPointer_复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/)
       [[solution]](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/)
       [[related]](https://leetcode-cn.com/problems/clone-graph/)
 - [x] [N0141E_LinkedListCycle_环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
-      [[solution]](https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode/)
-    * 技巧： 双指针中的快慢指针
+    * [[solution]](https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode/)
+    * [[github_code]](../src/main/java/com/maverickbyte/algo/leetcode/N0141E_LinkedListCycle.java)
+    * hint: set
+    * hint: slow-fast pointers(技巧： 双指针中的快慢指针)
 - [ ] [N0142M_LinkedListCycleII_环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
       [[solution]](https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-ii-by-leetcode/)
     * TODO 主要是有一个Floyd算法的数学证明
@@ -98,6 +102,8 @@ https://leetcode-cn.com/problemset/all/?topicSlugs=dynamic-programming
 - [x] [N0203E_RemoveLinkedListElements_移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
       [[solution]](https://leetcode-cn.com/problems/remove-linked-list-elements/solution/203yi-chu-lian-biao-yuan-su-by-lewis-dxstabdzew/)
     * 可以看看递归解法
+- [x] [N0206E_ReverseLinkedList_反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+      [[solution]](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode/)      
 - [x] [N0234E_PalindromeLinkedList_回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
       [[solution]](https://leetcode-cn.com/problems/palindrome-linked-list/solution/javashi-xian-kuai-man-zhi-zhen-fan-zhuan-qian-ban-/)
 - [x] [N0237E_DeleteNodeInALinkedList_删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)

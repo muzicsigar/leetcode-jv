@@ -8,6 +8,9 @@ import com.maverickbyte.algo.leetcode.util.ListNode;
  */
 public class N0082M_RemoveDuplicatesFromSortedListII {
 
+  /* =============================================================================================
+     solution：normal
+     ============================================================================================= */
   public ListNode deleteDuplicates(ListNode head) {
     ListNode dummy = new ListNode(0);
     dummy.next = head;
@@ -30,6 +33,38 @@ public class N0082M_RemoveDuplicatesFromSortedListII {
     return dummy.next;
   }
 
+
+  /* =============================================================================================
+      方法二是错误解答，当重复数字的个数是奇数时，会出错。
+     ============================================================================================= */
+  public ListNode deleteDuplicates2(ListNode head) {
+    if (head == null || head.next == null) {
+      return head;
+    }
+    head.next = deleteDuplicates2(head.next);
+    if (head.next != null && head.val == head.next.val) {
+      head = head.next.next;
+    }
+    return head;
+  }
+
+  /* =============================================================================================
+      方法三的递归解决了，当重复数字的个数是奇数时会出错的问题。
+     ============================================================================================= */
+  public ListNode deleteDuplicates3(ListNode head) {
+    if (head == null) {
+      return head;
+    }
+    if (head.next != null && head.val == head.next.val) {
+      while (head.next != null && head.val == head.next.val) {
+        head = head.next;
+      }
+      return deleteDuplicates3(head.next);
+    } else {
+      head.next = deleteDuplicates3(head.next);
+    }
+    return head;
+  }
 
   public static void main(String[] args) {
     N0082M_RemoveDuplicatesFromSortedListII runner =
